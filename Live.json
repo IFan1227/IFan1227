@@ -1,4 +1,4 @@
-<fenlei>央视高清-央视咪咕-央视移动-卫视高清-卫视移动-北京-上海-广东-吉林-NewTV-影视轮播-超清</fenlei>
+<fenlei>央视高清-央视咪咕-央视移动-卫视高清-卫视移动-北京-上海-广东-吉林-NewTV-影视轮播-超清<fenlei>
 #央视高清头#
 CCTV1,http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8#
 CCTV1,http://39.135.138.59:18890/PLTV/88888910/224/3221225642/index.m3u8#
@@ -27,7 +27,7 @@ CCTV14,http://39.135.138.60:18890/PLTV/88888910/224/3221225639/index.m3u8#
 CCTV14,http://39.135.138.59:18890/PLTV/88888910/224/3221225640/index.m3u8#
 CCTV15,http://39.134.115.163:8080/PLTV/88888910/224/3221225641/index.m3u8#
 CCTV16奥林匹克,http://iptv.tvfix.org/hls/cctv16hd.m3u8#
-CCTV17,http://39.134.66.110/PLTV/88888888/224/3221225708/index.m3u8#
+CCTV17,http://39.134.66.110/PLTV/88888888/224/3221225708/index.m3u8
 #央视高清尾#
 #央视咪咕头#
 CCTV1-综合,http://117.148.179.155/PLTV/88888888/224/3221231468/index.m3u8#
@@ -100,7 +100,7 @@ CGTN纪录,http://39.135.138.58:18890/PLTV/88888888/224/3221225645/index.m3u8#
 新华英语,http://39.135.138.58:18890/PLTV/88888888/224/3221225693/index.m3u8#
 CHC动作电影,http://117.148.179.138/PLTV/88888888/224/3221231580/index.m3u8#
 CHC家庭影院,http://117.148.179.151/PLTV/88888888/224/3221231799/index.m3u8#
-CHC高清電影,http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8#
+CHC高清電影,http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
 #央视咪咕尾#
 #央视移动头#
 CCTV1,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225777/1/index.m3u8?fmt=ts2hls#
@@ -141,7 +141,7 @@ CCTV高尔夫网球,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/
 CCTV央视精品,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225675/1/index.m3u8?fmt=ts2hls#
 CCTV兵器科技,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225676/1/index.m3u8?fmt=ts2hls#
 CCTV老故事,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225677/1/index.m3u8?fmt=ts2hls#
-CCTV中学生,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225663/1/index.m3u8?fmt=ts2hls#
+CCTV中学生,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225663/1/index.m3u8?fmt=ts2hls
 #央视移动尾#
 #卫视高清头#
 湖南卫视,http://39.134.65.162/PLTV/88888888/224/3221225506/index.m3u8#
@@ -242,7 +242,7 @@ CCTV中学生,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/32
 江西卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225746/index.m3u8#
 江西卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8#
 山西卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225730/index.m3u8#
-新疆卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225725/index.m3u8#
+新疆卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225725/index.m3u8
 #卫视高清尾#
 #卫视移动头#
 贵州卫视,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225776/1/index.m3u8?fmt=ts2hls#
@@ -310,7 +310,7 @@ CCTV中学生,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/32
 康巴卫视,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225695/1/index.m3u8?fmt=ts2hls#
 河南卫视,http://117.169.30.5:6610/PLTV/88888888/224/3221225611/2/index.m3u8?fmt=ts2hls#
 河南卫视,http://117.169.30.78:6610/PLTV/88888888/224/3221225611/2/index.m3u8?fmt=ts2hls#
-河南卫视,http://117.169.30.75:6610/PLTV/88888888/224/3221225611/2/index.m3u8?fmt=ts2hls#
+河南卫视,http://117.169.30.75:6610/PLTV/88888888/224/3221225611/2/index.m3u8?fmt=ts2hls
 #卫视移动尾#
 #北京头#
 北京财经,http://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=#
@@ -342,7 +342,7 @@ CCTV中学生,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/32
 顺义电视,http://livesydst.chinamcache.com/sydst/zb04.m3u8?auth_key=1633924026-0-0-674388eaa14736b03bcd6cfd1d294ba1#
 四海钓鱼,http://117.148.129.14:80/PLTV/88888888/224/3221231718/1.m3u8#
 通州电视台,http://pull.dayuntongzhou.com/live/tztv.m3u8#
-中国交通北京,http://tv.lanjingfm.com/cctbn/beijing.m3u8#
+中国交通北京,http://tv.lanjingfm.com/cctbn/beijing.m3u8
 #北京尾#
 #上海头#
 欢笑剧场,http://183.207.255.188/live/program/live/hxjchd/4000000/mnf.m3u8#
@@ -367,7 +367,7 @@ CCTV中学生,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/32
 东方影视,http://183.207.255.188/live/program/live/dsjpdhd/4000000/mnf.m3u8#
 劲爆体育,http://111.40.196.9/PLTV/88888888/224/3221225505/index.m3u8#
 五星体育,http://112.25.48.69/live/program/live/ssty/4000000/mnf.m3u8#
-金山频道,http://live.mudu.tv/watch/4zbn2f.m3u8#
+金山频道,http://live.mudu.tv/watch/4zbn2f.m3u8
 #上海尾#
 #广东头#
 广州综合,http://116.199.5.251/hls/gzds.m3u8#
@@ -414,8 +414,6 @@ CCTV中学生,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/32
 电白综合,http://gddb.chinashadt.com:1935/live/video1.stream_360p/playlist.m3u8#
 电白综合,http://gddb.chinashadt.com:1935/live/video1.stream/playlist.m3u8#
 电白视窗,http://gddb.chinashadt.com:1935/live/video2.stream/playlist.m3u8#
-潮安综合[640*360],http://chaoan.chaoantv.com:8278/zongyi_728/playlist.m3u8#
-潮安综合[640*360],http://chaoan.chaoantv.com:8278/live/chaoanzongyi.m3u8#
 潮安综合,http://chaoan.chaoantv.com:8278/zongyi_1028/playlist.m3u8#
 潮安综合,http://chaoan.chaoantv.com:8278/zongyi_1028/playlist.m3u8#
 潮安综合,http://chaoan.chaoantv.com:8278/zongyi_1028/playlist.m3u8#
@@ -513,7 +511,7 @@ CCTV中学生,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/32
 河源新闻综合,http://tmpstream.hyrtv.cn/xwzh/playlist.m3u8?_upt=407e01941606112151#
 河源新闻综合,http://tmpstream.hyrtv.cn/xwzh/playlist.m3u8?_upt=407e01941606112151#
 河源公共频道,http://tmpstream.hyrtv.cn/hygg/playlist.m3u8?_upt=c9befc281606112199#
-河源公共频道,http://tmpstream.hyrtv.cn/hygg/playlist.m3u8?_upt=c9befc281606112199#
+河源公共频道,http://tmpstream.hyrtv.cn/hygg/playlist.m3u8?_upt=c9befc281606112199
 #广东尾#
 #吉林头#
 吉林影视,http://stream4.jlntv.cn/test4/sd/live.m3u8#
@@ -550,7 +548,7 @@ CCTV中学生,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/32
 梅河口综合,http://stream4.jlntv.cn/mhk/sd/live.m3u8#
 龙井综合,http://stream8.jlntv.cn/ljtv/sd/live.m3u8#
 九台综合,http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8#
-江源综合频道,http://stream10.jlntv.cn/jiangyuantv/sd/live.m3u8#
+江源综合频道,http://stream10.jlntv.cn/jiangyuantv/sd/live.m3u8
 #吉林尾#
 #NewTV头#
 NewTV金牌综艺,http://223.110.243.157/ott.js.chinamobile.com/PLTV/3/224/3221227541/index.m3u8#
@@ -628,7 +626,7 @@ NewTV广西频道,http://39.135.138.60:18890/PLTV/88888910/224/3221226186/index.
 NewTV四川频道,http://39.135.138.60:18890/PLTV/88888910/224/3221226187/index.m3u8#
 NewTV云南频道,http://39.135.138.60:18890/PLTV/88888910/224/3221226188/index.m3u8#
 NewTV吉林频道,http://39.135.138.60:18890/PLTV/88888910/224/3221226189/index.m3u8#
-NewTV黑龙江台,http://39.135.138.60:18890/PLTV/88888910/224/3221226192/index.m3u8#
+NewTV黑龙江台,http://39.135.138.60:18890/PLTV/88888910/224/3221226192/index.m3u8
 #NewTV尾#
 #影视轮播头#
 喜剧联盟,http://117.148.179.154/PLTV/88888888/224/3221231621/index.m3u8#
@@ -665,7 +663,7 @@ SNH48剧场公演,http://117.148.179.139/PLTV/88888888/224/3221231622/index.m3u8
 每日荐影,http://117.148.179.162/PLTV/88888888/224/3221231727/index.m3u8#
 5G+,http://117.148.179.166/PLTV/88888888/224/3221231736/index.m3u8#
 奥运足球频道,http://117.148.179.173/PLTV/88888888/224/3221232023/index.m3u8#
-咪咕Y+,http://117.148.179.146/PLTV/88888888/224/3221230226/index.m3u8#
+咪咕Y+,http://117.148.179.146/PLTV/88888888/224/3221230226/index.m3u8
 #影视轮播尾#
 #超清头#
 CCTV1,http://39.134.115.163:8080/PLTV/88888910/224/3221225618/index.m3u8#
@@ -689,8 +687,5 @@ CCTV13,http://39.134.115.163:8080/PLTV/88888910/224/3221225638/index.m3u8#
 CCTV14,http://117.148.187.37/PLTV/88888888/224/3221226126/index.m3u8#
 CCTV15,http://111.13.111.167/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226333/1.m3u8#
 CCTV16奥林匹克,http://ott-live.olympicchannel.com/out/u/OC1_1.m3u8#
-4K专场,http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8#
+4K专场,http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8
 #超清尾#
-
-</body></html>
-------MultipartBoundary--f11TaPmmRuX8j7Z0rK7koeg4CKH2RAVp3WRbBaRzQq------
