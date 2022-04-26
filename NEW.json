@@ -65,22 +65,20 @@
 {"name":"天神影视","url":"https://deity.fun/api.php/app/"},
 {"name":"暖光影视","url":"https://app.bl210.com/api.php/v1.vod"}],
 "caijizhan": [
-//{"name":"填接口名称","url":"填采集站接口链接"},
-//{"name":"填接口名称","url":"填采集站接口链接"},
-//{"name":"填接口名称","url":"填采集站接口链接"},
+{"name":"樱花资源","url":"https://m3u8.apiyhzy.com/api.php"},
+{"name":"北斗星资源","url":"https://api.bdxapi.com/api.php"},
+{"name":"天空资源","url":"https://api.tiankongapi.com/api.php"},
 {"name":"酷云77","url":"http://api.kunyu77.com/api.php"}],
-"zhujiexi": "https://json.5lp.net/json.php?url=#http://api.vip123kan.vip/?url=#https://vip.aiaine.com/api/?key=8FN8gNAySnvJiMllxZ&url=#https://json.hfyrw.com/mao.go?url=#https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url=#https://www.nxflv.com/?url=#https://svip.rongxingvr.top/api/?key=Wyl9CjTyelP0UOaECD&url=#https://vvip.funsline.cn/api/?key=JNiddoRwmLBYehxnFq&url=#https://vip.23at.cn/home/api?type=ys&uid=4883852&key=adfimsvxzDKNOVX389&url=#https://aa.xkys.tv/json.php?url=#http://api.vip123kan.vip/?url=#https://www.shankubf.com/m3u8/?url=#https://jx.xmflv.com/?url=#https://www.8090g.cn/?url=#https://api.jiexi.la/?url=#https://www.playm3u8.cn/jiexi.php?url=#https://www.ckplayer.vip/jiexi/?url=#https://www.pangujiexi.cc/jiexi.php?url=#https://www.h8jx.com/jiexi.php?url=#https://humaosp.com/json.php?url=#https://json.pangujiexi.com:12345/json.php?url=#https://jb.vjiangbei.com/home/api?type=ys&uid=2219260&key=hlmnpqswHIKQRSX146&url=",
-
-"beiyongjiexi": "https://jx.blbo.cc:4433/?url=#https://kkjson.suoyo.cc/ysgcapp.php?url=#http://play.sxmj.wang/znjson.php?url=#https://godaddy-oss.wkfile.com/phoneapp/encryptionjm.php?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=7631191&key=cdemqsxFGKLNRVXYZ9&url=#https://jx.parwix.com:4433/player/?url=",
-
-"dianshizhibo": "https://fastly.jsdelivr.net/gh/IFan1227/IFan1227@main/Live.html","tiyuzhibo": "https://m.zhibo8.net",
-"reci": "https://v.qq.com/",
-"wuqu": "aHR0cHM6Ly9tdXNpYy5xaWVyMjIyLmNvbQ==",
-"gongju": "aHR0cDovLzQyLjE5My41NS4yNDI=",
 "lunbo": [
 {"name": "B哩","fanye": "aHR0cHM6Ly9hcGkubGl2ZS5iaWxpYmlsaS5jb20veGxpdmUvd2ViLWludGVyZmFjZS92MS9zZWNvbmQvZ2V0TGlzdD9wbGF0Zm9ybT13ZWImcGFyZW50X2FyZWFfaWQ9MTAmYXJlYV9pZD0zMyZzb3J0X3R5cGU9b25saW5lJnBhZ2U9","qianzhui": "aHR0cHM6Ly9lcGcuMTEyMTE0Lnh5ei9iaWxpLw=="},
 {"name": "H牙","fanye": "aHR0cHM6Ly93d3cuaHV5YS5jb20vY2FjaGUucGhwP209TGl2ZUxpc3QmZG89Z2V0TGl2ZUxpc3RCeVBhZ2UmZ2FtZUlkPTIxMzUmdGFnQWxsPTAmY2FsbGJhY2s9Z2V0TGl2ZUxpc3RKc29ucENhbGxiYWNrJnBhZ2U9","qianzhui": "aHR0cHM6Ly9lcGcuMTEyMTE0Lnh5ei9odXlhLw=="},
 {"name": "D鱼","fanye": "aHR0cHM6Ly93d3cuZG91eXUuY29tL2dhcGkvcmtjL2RpcmVjdG9yeS9taXhMaXN0LzJfMjA4Lw==","qianzhui": "aHR0cDovL2VwZy4xMTIxMTQueHl6L2RvdXl1Lw=="}],
+"zhujiexi": "https://json.5lp.net/json.php?url=#http://api.vip123kan.vip/?url=#https://vip.aiaine.com/api/?key=8FN8gNAySnvJiMllxZ&url=#https://json.hfyrw.com/mao.go?url=#https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url=#https://www.nxflv.com/?url=#https://svip.rongxingvr.top/api/?key=Wyl9CjTyelP0UOaECD&url=#https://vvip.funsline.cn/api/?key=JNiddoRwmLBYehxnFq&url=#https://vip.23at.cn/home/api?type=ys&uid=4883852&key=adfimsvxzDKNOVX389&url=#https://aa.xkys.tv/json.php?url=#http://api.vip123kan.vip/?url=#https://www.shankubf.com/m3u8/?url=#https://jx.xmflv.com/?url=#https://www.8090g.cn/?url=#https://api.jiexi.la/?url=#https://www.playm3u8.cn/jiexi.php?url=#https://www.ckplayer.vip/jiexi/?url=#https://www.pangujiexi.cc/jiexi.php?url=#https://jx.huishij.com/yun/?url=#https://www.h8jx.com/jiexi.php?url=#https://humaosp.com/json.php?url=#https://json.pangujiexi.com:12345/json.php?url=#https://jb.vjiangbei.com/home/api?type=ys&uid=2219260&key=hlmnpqswHIKQRSX146&url=",
+"beiyongjiexi": "https://jx.blbo.cc:4433/?url=#https://kkjson.suoyo.cc/ysgcapp.php?url=#http://play.sxmj.wang/znjson.php?url=#https://godaddy-oss.wkfile.com/phoneapp/encryptionjm.php?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=7631191&key=cdemqsxFGKLNRVXYZ9&url=#https://jx.yhzybf.com/player/jx.php?url=",
+"dianshizhibo": "https://fastly.jsdelivr.net/gh/IFan1227/IFan1227@main/Live.html","tiyuzhibo": "https://m.zhibo8.net",
+"reci": "https://v.qq.com/",
+"wuqu": "aHR0cHM6Ly9tdXNpYy5xaWVyMjIyLmNvbQ==",
+"gongju": "aHR0cDovLzQyLjE5My41NS4yNDI=",
 "Home": {
 "dy": {
 "class": "全部$&class=#喜剧$&class=喜剧#爱情$&class=爱情#动作$&class=动作#枪战$&class=枪战#犯罪$&class=犯罪#惊悚$&class=惊悚#恐怖$&class=恐怖#悬疑$&class=悬疑#动画$&class=动画#家庭$&class=家庭#奇幻$&class=奇幻#魔幻$&class=魔幻#科幻$&class=科幻#战争$&class=战争#青春$&class=青春#剧情$&class=剧情#西部$&class=西部#纪录$&class=记录#音乐$&class=音乐#歌舞$&class=歌舞#运动$&class=运动#历史$&class=历史#武侠$&class=武侠#冒险$&class=冒险#传记$&class=传记",
