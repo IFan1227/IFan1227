@@ -1,4 +1,5 @@
 {"zhuyejiekou": [
+{"name":"365红豆","url":"http://www.kan365.xyz/api.php/app/"},
 {"name":"独播社","url":"http://35ys.cc/api.php/v1.vod"},
 {"name":"360红豆源","url":"https://www.kan365.xyz/api.php/app/"},
 {"name":"次元动漫","url":"http://81.68.211.181/lvdou_api.php/v1.vod"},
@@ -68,13 +69,15 @@
 {"name":"樱花资源","url":"https://m3u8.apiyhzy.com/api.php"},
 {"name":"北斗星资源","url":"https://api.bdxapi.com/api.php"},
 {"name":"天空资源","url":"https://api.tiankongapi.com/api.php"},
-{"name":"酷云77","url":"http://api.kunyu77.com/api.php"}],
+{"name":"酷云77","url":"http://api.kunyu77.com/api.php"}
+{"name":"七七采集","url":"http://api.kunyu77.com/api.php"},
+{"name":"奇趣影院","url":"http://www.qiqu.me/api.php"}],
 "lunbo": [
 {"name": "B哩","fanye": "aHR0cHM6Ly9hcGkubGl2ZS5iaWxpYmlsaS5jb20veGxpdmUvd2ViLWludGVyZmFjZS92MS9zZWNvbmQvZ2V0TGlzdD9wbGF0Zm9ybT13ZWImcGFyZW50X2FyZWFfaWQ9MTAmYXJlYV9pZD0zMyZzb3J0X3R5cGU9b25saW5lJnBhZ2U9","qianzhui": "aHR0cHM6Ly9lcGcuMTEyMTE0Lnh5ei9iaWxpLw=="},
 {"name": "H牙","fanye": "aHR0cHM6Ly93d3cuaHV5YS5jb20vY2FjaGUucGhwP209TGl2ZUxpc3QmZG89Z2V0TGl2ZUxpc3RCeVBhZ2UmZ2FtZUlkPTIxMzUmdGFnQWxsPTAmY2FsbGJhY2s9Z2V0TGl2ZUxpc3RKc29ucENhbGxiYWNrJnBhZ2U9","qianzhui": "aHR0cHM6Ly9lcGcuMTEyMTE0Lnh5ei9odXlhLw=="},
 {"name": "D鱼","fanye": "aHR0cHM6Ly93d3cuZG91eXUuY29tL2dhcGkvcmtjL2RpcmVjdG9yeS9taXhMaXN0LzJfMjA4Lw==","qianzhui": "aHR0cDovL2VwZy4xMTIxMTQueHl6L2RvdXl1Lw=="}],
-"zhujiexi": "https://json.5lp.net/json.php?url=#http://api.vip123kan.vip/?url=#https://vip.aiaine.com/api/?key=8FN8gNAySnvJiMllxZ&url=#https://json.hfyrw.com/mao.go?url=#https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url=#https://www.nxflv.com/?url=#https://svip.rongxingvr.top/api/?key=Wyl9CjTyelP0UOaECD&url=#https://vvip.funsline.cn/api/?key=JNiddoRwmLBYehxnFq&url=#https://vip.23at.cn/home/api?type=ys&uid=4883852&key=adfimsvxzDKNOVX389&url=#https://aa.xkys.tv/json.php?url=#http://api.vip123kan.vip/?url=#https://www.shankubf.com/m3u8/?url=#https://jx.xmflv.com/?url=#https://www.8090g.cn/?url=#https://api.jiexi.la/?url=#https://www.playm3u8.cn/jiexi.php?url=#https://www.ckplayer.vip/jiexi/?url=#https://www.pangujiexi.cc/jiexi.php?url=#https://jx.huishij.com/yun/?url=#https://www.h8jx.com/jiexi.php?url=#https://humaosp.com/json.php?url=#https://json.pangujiexi.com:12345/json.php?url=#https://jb.vjiangbei.com/home/api?type=ys&uid=2219260&key=hlmnpqswHIKQRSX146&url=",
-"beiyongjiexi": "https://jx.blbo.cc:4433/?url=#https://kkjson.suoyo.cc/ysgcapp.php?url=#http://play.sxmj.wang/znjson.php?url=#https://godaddy-oss.wkfile.com/phoneapp/encryptionjm.php?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=7631191&key=cdemqsxFGKLNRVXYZ9&url=#https://jx.yhzybf.com/player/jx.php?url=",
+"zhujiexi": "https://json.5lp.net/json.php?url=#https://json.hfyrw.com/mao.go?url=#https://jhpc.manduhu.com/j1217.php?url=#https://vip.aiaine.com/api/?key=8FN8gNAySnvJiMllxZ&url=#http://api.vip123kan.vip/?url=#https://vip.aiaine.com/api/?key=8FN8gNAySnvJiMllxZ&url=#https://json.hfyrw.com/mao.go?url=#https://analysis.yikan.one/analysis/player/?uid=8&my=fjkmoqFJLORTVZ1359&url=#https://www.nxflv.com/?url=#https://svip.rongxingvr.top/api/?key=Wyl9CjTyelP0UOaECD&url=#https://vvip.funsline.cn/api/?key=JNiddoRwmLBYehxnFq&url=#https://vip.23at.cn/home/api?type=ys&uid=4883852&key=adfimsvxzDKNOVX389&url=#https://aa.xkys.tv/json.php?url=#http://api.vip123kan.vip/?url=#https://www.shankubf.com/m3u8/?url=#https://jx.xmflv.com/?url=#https://www.8090g.cn/?url=#https://api.jiexi.la/?url=#https://www.playm3u8.cn/jiexi.php?url=#https://www.ckplayer.vip/jiexi/?url=#https://www.pangujiexi.cc/jiexi.php?url=#https://jx.huishij.com/yun/?url=#https://www.h8jx.com/jiexi.php?url=#https://humaosp.com/json.php?url=#https://json.pangujiexi.com:12345/json.php?url=#https://jb.vjiangbei.com/home/api?type=ys&uid=2219260&key=hlmnpqswHIKQRSX146&url=",
+"beiyongjiexi": "https://jx.blbo.cc:4433/?url=#https://kkjson.suoyo.cc/ysgcapp.php?url=#http://play.sxmj.wang/znjson.php?url=#https://godaddy-oss.wkfile.com/phoneapp/encryptionjm.php?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=7631191&key=cdemqsxFGKLNRVXYZ9&url=#https://jx.yhzybf.com/player/jx.php?url=#http://api.diliktv.xyz/vip/jx.php?url=#https://nbjx.vip/?url=",
 "dianshizhibo": "https://fastly.jsdelivr.net/gh/IFan1227/IFan1227@main/Live.html","tiyuzhibo": "https://m.zhibo8.net",
 "reci": "https://v.qq.com/",
 "wuqu": "aHR0cHM6Ly9tdXNpYy5xaWVyMjIyLmNvbQ==",
