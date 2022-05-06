@@ -65,6 +65,7 @@
 {"name":"樱花资源","url":"https://m3u8.apiyhzy.com/api.php"},
 {"name":"北斗星资源","url":"https://api.bdxapi.com/api.php"},
 {"name":"天空资源","url":"https://api.tiankongapi.com/api.php"},
+{"name":"每天看看","url":"http://47.113.126.237:1234/api.php"},
 {"name":"七七采集","url":"http://api.kunyu77.com/api.php"},
 {"name":"奇趣影院","url":"http://www.qiqu.me/api.php"}],
 "lunbo": [
