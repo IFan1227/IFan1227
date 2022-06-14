@@ -243,7 +243,7 @@
 "bfbiaotiqian": "\">",
 "bfbiaotihou": "</a>",
 "bflianjieqian": "href=\"",
-"bflianjiehou": "\""}.
+"bflianjiehou": "\""},
 {"name": "在线之家",
 "url": "https://www.zxzjtv.com",
 "tihuan": "cnzz.com",
@@ -301,5 +301,4 @@
 "bfbiaotihou": "</a>",
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""}
-]
-}
+]}
