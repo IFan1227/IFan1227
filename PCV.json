@@ -29,6 +29,11 @@
 {"name":"猪猪影院","url":"http://app.2zdyy.com/api.php/v1.vod"},
 {"name":"913e影视","url":"http://www.913e.net/xgapp.php/v1/"},
 {"name":"海胆影视","url":"http://xf123.cc/api.php/app/"},
+{"name":"开尔影院","url":"https://appx.uy07.com/api.php/v1.vod"},
+{"name":"极酷视频","url":"https://jiku.vip/mogai_api.php/v1.vod"},
+{"name":"懒猫影视","url":"https://lanmao.lanmaoymw.cn/api.php/v1.vod"},
+{"name":"零刻影院","url":"https://ys.ling00.cn/api.php/v1.vod"},
+{"name":"优视影视","url":"http://app.ysys.asia/lvdou_api.php/v1.vod"},
 {"name":"暖光影视","url":"https://app.bl210.com/api.php/v1.vod"}],
 "caijizhan": [
 {"name":"樱花资源","url":"https://m3u8.apiyhzy.com/api.php"},
