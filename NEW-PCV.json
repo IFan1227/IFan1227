@@ -1,5 +1,3 @@
-//首页的栏目可以自己设置标题名称和图片，key不用改动，是列表页的识别标志，每个栏目的顺序也可以随意排序
-
 {"Home": [
 {"key":"APP","title":"APP调试","pic":"https://pic.3gbizhi.com/2021/1203/20211203075607171.jpg"},
 {"key":"网页","title":"网页调试","pic":"https://pic.3gbizhi.com/2020/1111/20201111023250424.jpg"},
@@ -10,9 +8,6 @@
 {"key":"推送","title":"远程推送","pic":"https://pic.3gbizhi.com/2020/1012/20201012103032240.jpg"},
 {"key":"待添加","title":"待添加","pic":"https://pic.3gbizhi.com/2020/0930/20200930114238377.jpg"}
 ],
-
-//填写APP接口，支持以下5种接口格式。{  http://xxx/api.php/v1.vod、https://xxx/xgapp.php/v1、http://xxx/api.php/app、https://xxx/xgapp.php/v2、http://xxx/mogai_api.php/v1.vod}
-
 "zhuyejiekou": [
 {"name":"独播社","url":"http://35ys.cc/api.php/v1.vod"},
 {"name":"次元动漫","url":"http://81.68.211.181/lvdou_api.php/v1.vod"},
