@@ -1,3 +1,5 @@
+//首页的栏目可以自己设置标题名称和图片，key不用改动，是列表页的识别标志，每个栏目的顺序也可以随意排序
+
 {"Home": [
 {"key":"APP","title":"APP调试","pic":"https://pic.3gbizhi.com/2021/1203/20211203075607171.jpg"},
 {"key":"网页","title":"网页调试","pic":"https://pic.3gbizhi.com/2020/1111/20201111023250424.jpg"},
@@ -8,6 +10,9 @@
 {"key":"推送","title":"远程推送","pic":"https://pic.3gbizhi.com/2020/1012/20201012103032240.jpg"},
 {"key":"待添加","title":"待添加","pic":"https://pic.3gbizhi.com/2020/0930/20200930114238377.jpg"}
 ],
+
+//填写APP接口，支持以下5种接口格式。{  http://xxx/api.php/v1.vod、https://xxx/xgapp.php/v1、http://xxx/api.php/app、https://xxx/xgapp.php/v2、http://xxx/mogai_api.php/v1.vod}
+
 "zhuyejiekou": [
 {"name":"独播社","url":"http://35ys.cc/api.php/v1.vod"},
 {"name":"次元动漫","url":"http://81.68.211.181/lvdou_api.php/v1.vod"},
@@ -59,39 +64,10 @@
 {"name":"七七采集","url":"http://api.kunyu77.com/api.php"},
 {"name":"奇趣影院","url":"http://www.qiqu.me/api.php"},
 {"name":"CK","url":"https://ckzy.me/api.php"}],
-"lunbo": [
-{"name": "B哩","fanye": "aHR0cHM6Ly9hcGkubGl2ZS5iaWxpYmlsaS5jb20veGxpdmUvd2ViLWludGVyZmFjZS92MS9zZWNvbmQvZ2V0TGlzdD9wbGF0Zm9ybT13ZWImcGFyZW50X2FyZWFfaWQ9MTAmYXJlYV9pZD0zMyZzb3J0X3R5cGU9b25saW5lJnBhZ2U9","qianzhui": "aHR0cHM6Ly9lcGcuMTEyMTE0Lnh5ei9iaWxpLw=="},
-{"name": "H牙","fanye": "aHR0cHM6Ly93d3cuaHV5YS5jb20vY2FjaGUucGhwP209TGl2ZUxpc3QmZG89Z2V0TGl2ZUxpc3RCeVBhZ2UmZ2FtZUlkPTIxMzUmdGFnQWxsPTAmY2FsbGJhY2s9Z2V0TGl2ZUxpc3RKc29ucENhbGxiYWNrJnBhZ2U9","qianzhui": "aHR0cHM6Ly9lcGcuMTEyMTE0Lnh5ei9odXlhLw=="},
-{"name": "D鱼","fanye": "aHR0cHM6Ly93d3cuZG91eXUuY29tL2dhcGkvcmtjL2RpcmVjdG9yeS9taXhMaXN0LzJfMjA4Lw==","qianzhui": "aHR0cDovL2VwZy4xMTIxMTQueHl6L2RvdXl1Lw=="}],
-"zhujiexi": "https://jx.m3u8.tv/jiexi/?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url=#https://json.pangujiexi.com:12345/json.php?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url=#https://jsap.attakids.com/?url=#https://app.iminna.com/jx/?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=123503&key=fgkqryzDEFLNQSTW69&url=#https://jx.xmflv.com/?url=#https://jhpc.manduhu.com/j1217.php?url=#https://jx.playerjy.com/?url=#https://jx.parwix.com:4433/player/?url=#http://ccc.ysys.asia/jx/?id=2&url=#https://www.nxflv.com/?url=#https://api.parwix.com:4433/analysis/json/?uid=1735&my=cejkmnuvyBEFINR056&url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=7665652&key=dglmnwEFILMOPRW056&url=#https://vvip.funsline.cn/api/?key=JNiddoRwmLBYehxnFq&url=#https://jb.vjiangbei.com/home/api?type=ys&uid=2219260&key=hlmnpqswHIKQRSX146&url=#https://z1.m1907.cn/?jx=#https://jx.renrenmi.cc/?url=",
+"zhujiexi": "https://z1.m1907.cn?jx=#https://jx.m3u8.tv/jiexi/?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url=#https://json.pangujiexi.com:12345/json.php?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url=#https://jsap.attakids.com/?url=#https://app.iminna.com/jx/?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=123503&key=fgkqryzDEFLNQSTW69&url=#https://jx.xmflv.com/?url=#https://jhpc.manduhu.com/j1217.php?url=#https://jx.playerjy.com/?url=#https://jx.parwix.com:4433/player/?url=#http://ccc.ysys.asia/jx/?id=2&url=#https://www.nxflv.com/?url=#https://api.parwix.com:4433/analysis/json/?uid=1735&my=cejkmnuvyBEFINR056&url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=7665652&key=dglmnwEFILMOPRW056&url=#https://vvip.funsline.cn/api/?key=JNiddoRwmLBYehxnFq&url=#https://jb.vjiangbei.com/home/api?type=ys&uid=2219260&key=hlmnpqswHIKQRSX146&url=#https://z1.m1907.cn/?jx=#https://jx.renrenmi.cc/?url=",
 "beiyongjiexi": "https://jx.blbo.cc:4433/?url=#https://kkjson.suoyo.cc/ysgcapp.php?url=#https://json.hfyrw.com/mao.go?url=#https://svip.spchat.top/api/?key=SAl7tLs3Zzu5alSNtz&url=#https://humaosp.com/json.php?url=#http://play.sxmj.wang/znjson.php?url=#https://humaosp.com/json.php?url=#https://aa.xkys.tv/json.php?url=#https://godaddy-oss.wkfile.com/phoneapp/encryptionjm.php?url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=1525223&key=fhikpsvBCDFHJOSUZ8&url=#https://api.m3u8.tv:5678/home/api?type=ys&uid=1095368&key=cdgjpsuDFLNRTUVY03&url=#https://jx.aidouer.net/?url=#http://api.diliktv.xyz/vip/jx.php?url=#https://www.8090g.cn/?url=#https://api.jiexi.la/?url=#https://www.pangujiexi.cc/jiexi.php?url=#https://jx.huishij.com/yun/?url=#https://www.h8jx.com/jiexi.php?url=#https://humaosp.com/json.php?url=#https://bd.jx.cn/vip/?url=#https://vip.2ktvb.com/player/?url=#https://nbjx.vip/?url=#https://www.playm3u8.cn/jiexi.php?url=",
 "dianshizhibo": "https://fastly.jsdelivr.net/gh/Yvan-W/Film-TV@main/Live.html",
-"tiyuzhibo": "https://m.zhibo8.net",
-"reci": "https://v.qq.com/",
-"wuqu": "aHR0cHM6Ly9tdXNpYy5xaWVyMjIyLmNvbQ==",
-"gongju": "aHR0cDovLzQyLjE5My41NS4yNDI=",
-"Home": {
-"dy": {
-"class": "全部$&class=#喜剧$&class=喜剧#爱情$&class=爱情#动作$&class=动作#枪战$&class=枪战#犯罪$&class=犯罪#惊悚$&class=惊悚#恐怖$&class=恐怖#悬疑$&class=悬疑#动画$&class=动画#家庭$&class=家庭#奇幻$&class=奇幻#魔幻$&class=魔幻#科幻$&class=科幻#战争$&class=战争#青春$&class=青春#剧情$&class=剧情#西部$&class=西部#纪录$&class=记录#音乐$&class=音乐#歌舞$&class=歌舞#运动$&class=运动#历史$&class=历史#武侠$&class=武侠#冒险$&class=冒险#传记$&class=传记",
-"area": "全部$&area=#内地$&area=内地#香港$&area=香港#美国$&area=美国#欧洲$&area=欧洲#韩国$&area=韩国#日本$&area=日本#泰国$&area=泰国#印度$&area=印度#其它$&area=其它",
-"year": "全部$&lang=&year=#2022$&lang=&year=2022#2021$&lang=&year=2021#2020$&lang=&year=2020#2019$&lang=&year=2019#2018$&lang=&year=2018#2017$&lang=&year=2017#2016-2011$&lang=&year=2016#2010-2000$&lang=&year=2010#90年代$&lang=&year=90#80年代$&lang=&year=80#更早$&lang=&year=70"
-},
-"dsj": {
-"class": "全部$&class=#古装$&class=古装#言情$&class=言情#武侠$&class=武侠#偶像$&class=偶像#家庭$&class=家庭#青春$&class=青春#都市$&class=都市#喜剧$&class=喜剧#战争$&class=战争#军旅$&class=军旅#谍战$&class=谍战#悬疑$&class=悬疑#罪案$&class=罪案#穿越$&class=穿越#宫廷$&class=宫廷#历史$&class=历史#神话$&class=神话#科幻$&class=科幻#年代$&class=年代#农村$&class=农村#商战$&class=商战#剧情$&class=剧情#奇幻$&class=奇幻",
-"area": "全部$&area=#内地$&area=内地#香港$&area=香港#美国$&area=美国#英国$&area=英国#韩国$&area=韩国#日本$&area=日本#泰国$&area=泰国#台湾$&area=台湾#其它$&area=其它",
-"year": "全部$&lang=&year=#2022$&lang=&year=2022#2021$&lang=&year=2021#2020$&lang=&year=2020#2019$&lang=&year=2019#2018$&lang=&year=2018#2017$&lang=&year=2017#2016-2011$&lang=&year=2016#2010-2000$&lang=&year=2010#90年代$&lang=&year=90#80年代$&lang=&year=80#更早$&lang=&year=70"
-},
-"zy": {
-"class": "全部$&class=#表演$&class=表演#播报$&class=播报#访谈$&class=访谈#体验$&class=体验#养成$&class=养成#游戏$&class=游戏#亲子$&class=亲子#美食$&class=美食#情感$&class=情感#选秀$&class=选秀#益智$&class=益智#晚会$&class=晚会#音乐$&class=音乐#文化$&class=文化#喜剧$&class=喜剧#曲艺$&class=曲艺#职场$&class=职场#脱口秀$&class=脱口秀#真人秀$&class=真人秀#竞技$&class=竞技#体育$&class=体育#萌宠$&class=萌宠",
-"area": "全部$&area=#内地$&area=内地#香港$&area=香港#美国$&area=美国#韩国$&area=韩国#日本$&area=日本#台湾$&area=台湾",
-"year": "全部$&lang=&year=#2022$&lang=&year=2022#2021$&lang=&year=2021#2020$&lang=&year=2020#2019$&lang=&year=2019#2018$&lang=&year=2018#2017$&lang=&year=2017#2016-2011$&lang=&year=2016#2010-2000$&lang=&year=2010#90年代$&lang=&year=90#80年代$&lang=&year=80#更早$&lang=&year=70"
-},
-"dm": {
-"class": "全部$&class=#搞笑$&class=搞笑#番剧$&class=番剧#国创$&class=国创#大电影$&class=大电影#热血$&class=热血#催泪$&class=催泪#治愈$&class=治愈#励志$&class=励志#机战$&class=机战#战斗$&class=战斗#恋爱$&class=恋爱#科幻$&class=科幻#奇幻$&class=奇幻#魔幻$&class=魔幻#推理$&class=推理#校园$&class=校园#日常$&class=日常#经典$&class=经典#历史$&class=历史#美食$&class=美食#职场$&class=职场#偶像$&class=偶像#泡面$&class=泡面#冒险$&class=冒险#竞技$&class=竞技#武侠$&class=武侠#玄幻$&class=玄幻",
-"area": "全部$&area=#内地$&area=内地#日本$&area=日本#欧美$&area=欧美#其它$&area=其它",
-"year": "全部$&lang=&year=#2022$&lang=&year=2022#2021$&lang=&year=2021#2020$&lang=&year=2020#2019$&lang=&year=2019#2018$&lang=&year=2018#2017$&lang=&year=2017#2016-2011$&lang=&year=2016#2010-2000$&lang=&year=2010#90年代$&lang=&year=90#80年代$&lang=&year=80#更早$&lang=&year=70"
-}
-},
+"guolvdizhi": "player.css#url=#51.la#poster#api.php#file=#auth_#cnzz.com",
 "zidingyi": [
 {"name": "乐猪影视",
 "url": "http://www.lezhutv.com",
@@ -316,6 +292,64 @@
 "bfyjiequqian": "空",
 "bfyjiequhou": "空",
 "bfyjiequshuzuqian": "<li",
+"bfyjiequshuzuhou": "</li>",
+"bfbiaotiqian": "\">",
+"bfbiaotihou": "</a>",
+"bflianjieqian": "href=\"",
+"bflianjiehou": "\""},
+{
+"name": "会员影视",
+"url": "http://www.vip1280.net",
+"tihuan": "cnzz.com",
+"User": "空",
+"fenlei": "电影$/frim/index1/page/#电视剧$/frim/index2/page/#港台剧$/frim/index3/page/#动作片$/frim/index6/page/#爱情片$/frim/index7/page/#科幻片$/frim/index8/page/#恐怖片$/frim/index9/page/#战争片$/frim/index10/page/#喜剧片$/frim/index11/page/#记录片$/frim/index12/page/#剧情片$/frim/index20/page/#动画片$/frim/index21/page/#欧美剧$/frim/index4/page/#日韩剧$/frim/index5/page/#泰剧$/frim/index22/page/",
+"houzhui": ".html",
+"shifouercijiequ": "0",
+"jiequqian": "空",
+"jiequhou": "空",
+"jiequshuzuqian": "class=\"col-md-6 col-sm-4 col-xs-3\"",
+"jiequshuzuhou": "</li>",
+"tupianqian": "data-original=\"",
+"tupianhou": "\"",
+"biaotiqian": "title=\"",
+"biaotihou": "\"",
+"lianjieqian": "href=\"",
+"lianjiehou": "\"",
+"sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+"sousuohou": "&limit=500",
+"sousuohouzhui": "/movie/index",
+"ssmoshi": "0",
+"sousuoshifouercijiequ": "0",
+"jspic": "pic",
+"jsname": "name",
+"jsid": "id",
+"ssjiequqian": "空",
+"ssjiequhou": "空",
+"ssjiequshuzuqian": "空",
+"ssjiequshuzuhou": "空",
+"sstupianqian": "空",
+"sstupianhou": "空",
+"ssbiaotiqian": "空",
+"ssbiaotihou": "空",
+"sslianjieqian": "空",
+"sslianjiehou": "空",
+"bfshifouercijiequ": "0",
+"bfjiequqian": "空",
+"bfjiequhou": "空",
+"bfjiequshuzuqian": "class=\"stui-content__playlist clearfix\"",
+"bfjiequshuzuhou": "</ul>",
+"zhuangtaiqian": "class=\"pic-text text-right\">",
+"zhuangtaihou": "",
+"daoyanqian": "导演：</span>",
+"daoyanhou": "</a>",
+"zhuyanqian": "主演：</span>",
+"zhuyanhou": "</a>",
+"juqingqian": "class=\"detail-sketch\"",
+"juqinghou": "</span>",
+"bfyshifouercijiequ": "0",
+"bfyjiequqian": "空",
+"bfyjiequhou": "空",
+"bfyjiequshuzuqian": "<li >",
 "bfyjiequshuzuhou": "</li>",
 "bfbiaotiqian": "\">",
 "bfbiaotihou": "</a>",
