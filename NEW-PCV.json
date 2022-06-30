@@ -1,13 +1,13 @@
 //首页的栏目可以自己设置标题名称和图片，key不用改动，是列表页的识别标志，每个栏目的顺序也可以随意排序。
 {"Home": [
-{"key":"APP","title":"影视","pic":"https://pic.3gbizhi.com/2021/1203/20211203075607171.jpg"},
-{"key":"网页","title":"自定义","pic":"https://pic.3gbizhi.com/2020/1111/20201111023250424.jpg"},
-{"key":"采集","title":"采集站","pic":"https://pic.3gbizhi.com/2020/1028/20201028105748176.jpg"},
-{"key":"直播","title":"电视直播","pic":"https://pic.3gbizhi.com/2021/1006/20211006102237385.jpg"},
-{"key":"历史","title":"历史记录","pic":"https://pic.3gbizhi.com/2020/1111/20201111023250424.jpg"},
-{"key":"收藏","title":"我的收藏","pic":"https://pic.3gbizhi.com/2020/1013/20201013094143846.jpg"},
-{"key":"推送","title":"远程推送","pic":"https://pic.3gbizhi.com/2020/1012/20201012103032240.jpg"},
-{"key":"待添加","title":"待添加","pic":"https://pic.3gbizhi.com/2020/0930/20200930114238377.jpg"}
+{"key":"APP","title":"影视","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/1-FT.jpg"},
+{"key":"网页","title":"自定义","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/2-Custom.jpg"},
+{"key":"采集","title":"采集站","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/3-Collection.jpg"},
+{"key":"直播","title":"电视直播","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/4-TV.jpg"},
+{"key":"历史","title":"历史记录","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/5-History.jpg"},
+{"key":"收藏","title":"我的收藏","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/6-Favorite.jpg"},
+{"key":"推送","title":"远程推送","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/7-Remote.jpg"},
+{"key":"待添加","title":"待添加","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/8-Developing.jpg"}
 ],
 
 //填写APP接口，支持以下5种接口格式。
