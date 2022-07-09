@@ -1,4 +1,3 @@
-//首页的栏目可以自己设置标题名称和图片，key不用改动，是列表页的识别标志，每个栏目的顺序也可以随意排序。
 {"Home": [
 {"key":"APP","title":"影视","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/1-FT.jpg"},
 {"key":"网页","title":"自定义","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/2-Custom.jpg"},
@@ -10,7 +9,6 @@
 {"key":"待添加","title":"待添加","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/8-Developing.jpg"}
 ],
 
-//填写APP接口，支持以下5种接口格式。
 "zhuyejiekou": [
 {"name":"次元动漫","url":"http://81.68.211.181/lvdou_api.php/v1.vod"},
 {"name":"熊猫动漫","url":"http://dongman.k8aa.com/mogai_api.php/v1.vod"},
@@ -54,7 +52,6 @@
 {"name":"暖光影视","url":"https://app.bl210.com/api.php/v1.vod"}
 ],
 
-//填写采集接口
 "caijizhan": [
 {"name":"樱花资源","url":"https://m3u8.apiyhzy.com/api.php"},
 {"name":"北斗星资源","url":"https://api.bdxapi.com/api.php"},
@@ -66,7 +63,6 @@
 {"name":"CK","url":"https://ckzy.me/api.php"}
 ],
 
-//主解析是JSON直链格式的解析
 "zhujiexi":[
 {"name":"普解1","url":"https://z1.m1907.cn?jx="},
 {"name":"普解2","url":"https://app.iminna.com/jx/?url="},
@@ -87,7 +83,6 @@
 {"name":"人人迷解析","url":"https://jx.renrenmi.cc/?url="}
 ],
 
-//备用解析是常规格式的解析
 "beiyongjiexi": [
 {"name":"解析1","url":"https://jx.blbo.cc:4433/?url="},
 {"name":"解析2","url":"https://kkjson.suoyo.cc/ysgcapp.php?url="},
@@ -114,13 +109,10 @@
 {"name":"解析23","url":"https://www.playm3u8.cn/jiexi.php?url="}
 ],
 
-//填写电视直播的接口链接
 "dianshizhibo": "https://fastly.jsdelivr.net/gh/Yvan-W/Film-TV@main/Live.html",
 
-//填写播放地址过滤规则，中间用#号分割，不用填太多，默认的基本够用，主要是针对自定义的网站过滤的。
 "guolvdizhi": "player.css#url=#51.la#poster#api.php#file=#auth_#cnzz.com",
 
-//填写网页接口内容，格式是 {网页接口1},{网页接口2},{网页接口3} 一个花括号里面就是一个自定义接口内容  用，号分割  最后一个不加，号
 "zidingyi": [
 {"name": "乐猪影视",
 "url": "http://www.lezhutv.com",
@@ -179,6 +171,7 @@
 "bfbiaotihou": "</a>",
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""},
+
 {"name": "LIBVIO",
 "url": "https://www.libvio.com",
 "tihuan": "dd520.cc",
@@ -236,6 +229,7 @@
 "bfbiaotihou": "<",
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""},
+
 {"name": "黑洞",
 "url": "https://www.nulltm.com",
 "tihuan": "cnzz.com",
@@ -293,6 +287,7 @@
 "bfbiaotihou": "</a>",
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""},
+
 {"name": "在线之家",
 "url": "https://www.zxzjtv.com",
 "tihuan": "cnzz.com",
@@ -350,8 +345,8 @@
 "bfbiaotihou": "</a>",
 "bflianjieqian": "href=\"",
 "bflianjiehou": "\""},
-{
-"name": "会员影视",
+
+{"name": "会员影视",
 "url": "http://www.vip1280.net",
 "tihuan": "cnzz.com",
 "User": "空",
