@@ -1,19 +1,26 @@
 {"Home": [
+
 {"key":"APP","title":"影视","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/1-FT.jpg"},
+
 {"key":"网页","title":"自定义","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/2-Custom.jpg"},
+
 {"key":"采集","title":"采集站","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/3-Collection.jpg"},
+
 {"key":"直播","title":"电视直播","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/4-TV.jpg"},
+
 {"key":"历史","title":"历史记录","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/5-History.jpg"},
+
 {"key":"收藏","title":"我的收藏","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/6-Favorite.jpg"},
+
 {"key":"推送","title":"远程推送","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/7-Remote.jpg"},
+
 {"key":"待添加","title":"待添加","pic":"https://raw.iqiq.io/Yvan-W/Film-TV/main/Media/8-Developing.jpg"}
+
 ],
 
 "zhuyejiekou": [
-{"name":"次元动漫","url":"http://81.68.211.181/lvdou_api.php/v1.vod"},
 {"name":"熊猫动漫","url":"http://dongman.k8aa.com/mogai_api.php/v1.vod"},
-{"name":"小白动漫","url":"http://121.62.60.222:20222/mogai_api.php/v1.vod"},
-{"name":"皮皮动漫","url":"http://dm.muying.me/mogai_api.php/v1.vod"},
+{"name":"瑞丰影视","url":"http://121.204.249.135:4433/ruifenglb_api.php/v1.vod"},
 {"name":"月儿影视","url":"https://yue52.xyz/api.php/v1.vod"},
 {"name":"飓风影视","url": "http://jf.35ys.cc/lehailb_api.php/v1.vod"},
 {"name":"琅琊影视","url": "http://fgyuu.top/lehailb_api.php/v1.vod"},
