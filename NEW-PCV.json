@@ -11,8 +11,6 @@
 
 "zhuyejiekou": [
 {"name":"熊猫动漫","url":"http://dongman.k8aa.com/mogai_api.php/v1.vod"},
-{"name":"小白动漫","url":"http://121.62.60.222:20222/mogai_api.php/v1.vod"},
-{"name":"皮皮动漫","url":"http://dm.muying.me/mogai_api.php/v1.vod"},
 {"name":"瑞丰影视","url":"http://121.204.249.135:4433/ruifenglb_api.php/v1.vod"},
 {"name":"月儿影视","url":"https://yue52.xyz/api.php/v1.vod"},
 {"name":"飓风影视","url": "http://jf.35ys.cc/lehailb_api.php/v1.vod"},
