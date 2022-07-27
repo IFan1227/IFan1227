@@ -297,7 +297,7 @@
             "url": "https://www.playm3u8.cn/jiexi.php?url="
         }
     ],
-    "dianshizhibo": "https://fastly.jsdelivr.net/gh/Yvan-W/Film-TV@main/Live.html",
+    "dianshizhibo": "https://cdn.staticaly.com/gh/Yvan-W/Film-TV/main/Live.txt",
     "guolvdizhi": "player.css#url=#51.la#poster#api.php#file=#auth_#cnzz.com",
     "zidingyi": [
         {
