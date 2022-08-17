@@ -43,10 +43,6 @@
     ],
     "zhuyejiekou": [
         {
-            "name": "熊猫动漫",
-            "url": "http://dongman.k8aa.com/mogai_api.php/v1.vod"
-        },
-        {
             "name": "小鸟动漫",
             "url": "http://xydm.baicai.buzz/mogai_api.php/v1.vod"
         },
