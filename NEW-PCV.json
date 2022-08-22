@@ -167,52 +167,12 @@
     ],
     "zhujiexi": [
         {
-            "name": "王牌（B站）",
-            "url": "https://za.kuanjv.com/?url="
-        },
-        {
-            "name": "RongXingVR（B站）",
-            "url": "https://vip.rongxingvr.top/api/?key=JJEZkZIhzkA4cUtBfR&url="
-        },
-        {
-            "name": "4433",
-            "url": "https://api.parwix.com:4433/analysis/json/?uid=1735&my=cejkmnuvyBEFINR056&url="
-        },
-        {
-            "name": "普解",
-            "url": "https://app.iminna.com/jx/?url="
-        },
-        {
-            "name": "普解",
-            "url": "https://jhpc.manduhu.com/j1217.php?url="
-        },
-        {
-            "name": "普解",
-            "url": "https://jb.vjiangbei.com/home/api?type=ys&uid=2219260&key=hlmnpqswHIKQRSX146&url="
+            "name": "mplayer",
+            "url": "https://z1.m1907.cn?jx="
         },
         {
             "name": "M3U8.TV",
             "url": "https://jx.m3u8.tv/jiexi/?url="
-        },
-        {
-            "name": "M3U8.TV-P1",
-            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1931000&key=gktuvyzABEORSYZ135&url="
-        },
-        {
-            "name": "M3U8.TV-P2",
-            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1494542&key=ijmqvwxABEHILMOT48&url="
-        },
-        {
-            "name": "M3U8.TV-P3",
-            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=123503&key=fgkqryzDEFLNQSTW69&url="
-        },
-        {
-            "name": "M3U8.TV-P4",
-            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=7665652&key=dglmnwEFILMOPRW056&url="
-        },
-        {
-            "name": "思古解析",
-            "url": "https://jsap.attakids.com/?url="
         },
         {
             "name": "虾米解析",
@@ -223,24 +183,12 @@
             "url": "https://jx.playerjy.com/?url="
         },
         {
-            "name": "Parwix视频解析系统",
-            "url": "https://jx.parwix.com:4433/player/?url="
+            "name": "Parwix（非B站）",
+            "url": "https://jx.bozrc.com:4433/player/?url="
         },
         {
             "name": "诺讯解析",
             "url": "https://www.nxflv.com/?url="
-        },
-        {
-            "name": "MuX蓝光解析",
-            "url": "https://vvip.funsline.cn/api/?key=JNiddoRwmLBYehxnFq&url="
-        },
-        {
-            "name": "GKB",
-            "url": "https://gkd8.cf/vip/vip.php?url="
-        },
-        {
-            "name": "人人迷解析",
-            "url": "https://jx.renrenmi.cc/?url="
         }
     ],
     "beiyongjiexi": [
@@ -255,11 +203,7 @@
         {
             "name": "解析",
             "url": "http://play.sxmj.wang/znjson.php?url="
-        },
-        {
-            "name": "M3U8.TV",
-            "url": "https://api.m3u8.tv:5678/home/api?type=ys&uid=1095368&key=cdgjpsuDFLNRTUVY03&url="
-        },
+        },       
         {
             "name": "云解析",
             "url": "https://jx.aidouer.net/?url="
