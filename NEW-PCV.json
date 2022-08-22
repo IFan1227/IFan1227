@@ -1,7 +1,12 @@
 {
     "Home": [
         {
-            "key": "自定义",
+            "key": "APP",
+            "title": "影视",
+            "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/1-FT.png"
+        },
+        {
+            "key": "网页",
             "title": "自定义",
             "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/2-Custom.png"
         },
@@ -29,6 +34,11 @@
             "key": "推送",
             "title": "远程推送",
             "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/7-Remote.png"
+        },
+        {
+            "key": "待添加",
+            "title": "待添加",
+            "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/8-Developing.png"
         }
     ],
     "caijizhan": [
