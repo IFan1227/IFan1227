@@ -1907,12 +1907,11 @@
         {
             "name": "路漫漫",
             "url": "http://www.17skr.com",
-            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
             "User": "空",
             "直接播放": "0",
             "列表显示": "0",
             "横图显示": "0",
-            "fenlei": "日本动漫$/type/ribendongman--------#国产动漫$/type/guochandongman--------#欧美动漫$/type/oumeidongman--------#电影$/type/dianying--------#番剧$/vodshow/26--------",
+            "fenlei": "日本动漫$/type/ribendongman#国产动漫$/type/guochandongman#欧美动漫$/type/oumeidongman#电影$/type/dianying#番剧$/vodshow/26",
             "houzhui": ".html",
             "qishiye": "1",
             "shifouercijiequ": "0",
