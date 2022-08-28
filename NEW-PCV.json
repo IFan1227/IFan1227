@@ -43,6 +43,8 @@
     ],
     "zhuyejiekou": [
         {
+            "name":"填接口名称",
+            "url":"http://xxx/mogai_api.php/v1.vod"
         }
     ],
     "caijizhan": [
@@ -89,10 +91,14 @@
     ],
     "zhujiexi": [
         {
+            "name":"解析1",
+            "url":"www.xxx.url="
         }
     ],
     "beiyongjiexi": [
         {
+            "name":"解析1",
+            "url":"www.xxx.url="
         }
     ],
     "dianshizhibo": "https://cdn.staticaly.com/gh/Yvan-W/Film-TV/main/Live.txt",
