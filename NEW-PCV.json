@@ -43,8 +43,6 @@
     ],
     "zhuyejiekou": [
         {
-            "name":"填接口名称",
-            "url":"http://xxx/mogai_api.php/v1.vod"
         }
     ],
     "caijizhan": [
@@ -91,14 +89,10 @@
     ],
     "zhujiexi": [
         {
-            "name":"解析1",
-            "url":"www.xxx.url="
         }
     ],
     "beiyongjiexi": [
         {
-            "name":"解析1",
-            "url":"www.xxx.url="
         }
     ],
     "dianshizhibo": "https://cdn.staticaly.com/gh/Yvan-W/Film-TV/main/Live.txt",
@@ -1924,7 +1918,7 @@
             "shifouercijiequ": "0",
             "jiequqian": "空",
             "jiequhou": "空",
-            "jiequshuzuqian": "class=\"col-6 col-sm-4 col-lg-3"",
+            "jiequshuzuqian": "class=\"col-6 col-sm-4 col-lg-3\"",
             "jiequshuzuhou": "</span>",
             "tupianqian": "data-src=\"",
             "tupianhou": "\"",
