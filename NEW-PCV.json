@@ -1918,7 +1918,7 @@
             "shifouercijiequ": "0",
             "jiequqian": "空",
             "jiequhou": "空",
-            "jiequshuzuqian": "class=\"myui-vodlist__box\"",
+            "jiequshuzuqian": "class=\"col-6 col-sm-4 col-lg-3"",
             "jiequshuzuhou": "</span>",
             "tupianqian": "original=\"",
             "tupianhou": "\"",
