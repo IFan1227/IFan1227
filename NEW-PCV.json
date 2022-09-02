@@ -42,8 +42,7 @@
         }
     ],
     "zhuyejiekou": [
-        {
-        }
+        {}
     ],
     "caijizhan": [
         {
@@ -88,12 +87,10 @@
         }
     ],
     "zhujiexi": [
-        {
-        }
+        {}
     ],
     "beiyongjiexi": [
-        {
-        }
+        {}
     ],
     "dianshizhibo": "https://cdn.staticaly.com/gh/Yvan-W/Film-TV/main/Live.txt",
     "嗅探词": "m3u8?#ixigua#.czspp#.m3u8#mp4#.flv#.mp3#.m4a",
@@ -1907,36 +1904,50 @@
         {
             "name": "路漫漫",
             "url": "http://www.17skr.com",
-            "User": "空",
+            //访问请求头
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+            //播放请求头
+            "User": "User-Agent$123",
+            //0表示：记录，1表示：不记录
+            "是否记录历史": "0",
+            //直接播放截取的播放页链接网址，0表示：否，1表示：是
             "直接播放": "0",
+            //分类页是否使用列表方式显示，0表示：否，1表示：是
             "列表显示": "0",
+            //列表图片是否横图显示，0表示：否，1表示：是
             "横图显示": "0",
-            "fenlei": "日本动漫$/type/ribendongman#国产动漫$/type/guochandongman#欧美动漫$/type/oumeidongman#电影$/type/dianying#番剧$/vodshow/26",
-            "houzhui": ".html",
+            //可以自定义列表翻页起始页的页数
             "qishiye": "1",
+            //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
+            "fenlei": "日本动漫$/type/ribendongman#国产动漫$/type/guochandongman#欧美动漫$/type/oumeidongman#电影$/type/dianying",
+            "houzhui": ".html",
             "shifouercijiequ": "0",
             "jiequqian": "空",
             "jiequhou": "空",
             "jiequshuzuqian": "class=\"col-6 col-sm-4 col-lg-3\"",
             "jiequshuzuhou": "</span>",
+            //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-src=\"",
             "tupianhou": "\"",
             "tupianqianzhui": "空",
             "biaotiqian": "title=\"",
             "biaotihou": "\"",
+            "fubiaotiqian": "",
+            "fubiaotihou": "",
             "lianjieqian": "href=\"",
             "lianjiehou": "\"",
             "ljqianzhui": "空",
             "ljhouzhui": "空",
-            "fubiaotiqian": "",
-            "fubiaotihou": "",
+            //搜索部分
+            //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
+            "搜索请求方式": "0",
+            "ssmoshi": "0",
+            "sousuoqian": "/vod/search.html?wd=",
+            "sousuohou": "&limit=150",
             "sousuohouzhui": "/voddetail/",
             "jspic": "pic",
             "jsname": "name",
             "jsid": "id",
-            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
-            "sousuohou": "&limit=500",
-            "ssmoshi": "0",
             "sousuoshifouercijiequ": "0",
             "ssjiequqian": "空",
             "ssjiequhou": "空",
@@ -1947,15 +1958,22 @@
             "sstupianqianzhui": "空",
             "ssbiaotiqian": "空",
             "ssbiaotihou": "空",
+            "ssfubiaotiqian": "空",
+            "ssfubiaotihou": "空",
             "sslianjieqian": "空",
             "sslianjiehou": "空",
             "ssljqianzhui": "空",
             "ssljhouzhui": "空",
-            "bfshifouercijiequ": "0",
-            "bfjiequqian": "空",
-            "bfjiequhou": "空",
-            "bfjiequshuzuqian": "id=\"playlist",
-            "bfjiequshuzuhou": "</ul>",
+            //线路名称显示部分，0不启用，1启用
+            "是否启用播放线路名": "0",
+            "线路名是否二次截取": "0",
+            "线路名截取前": "空",
+            "线路名截取后": "空",
+            "线路名截取数组前": "空",
+            "线路名截取数组后": "空",
+            "线路名标题前": "空",
+            "线路名标题后": "空",
+            //状态，导演，演员，剧情的截取
             "zhuangtaiqian": "class=\"otherbox\">",
             "zhuangtaihou": "</p>",
             "daoyanqian": "导演：</span>",
@@ -1964,6 +1982,12 @@
             "zhuyanhou": "</p>",
             "juqingqian": "<span class=\"data\"",
             "juqinghou": "</span>",
+            //播放集数截取部分
+            "bfshifouercijiequ": "0",
+            "bfjiequqian": "空",
+            "bfjiequhou": "空",
+            "bfjiequshuzuqian": "id=\"playlist",
+            "bfjiequshuzuhou": "</ul>",
             "bfyshifouercijiequ": "0",
             "bfyjiequqian": "空",
             "bfyjiequhou": "空",
@@ -1974,7 +1998,7 @@
             "bflianjieqian": "href=\"",
             "bflianjiehou": "\"",
             "bfqianzhui": "空"
-        },
+        }
         {
             "name": "有声小说",
             "url": "https://m.tingzh.com",
