@@ -340,64 +340,102 @@
         }, //播放剧集链接后关键词
         {
             "name": "大米星球",
-            "url": "https://www.dmxq.fun", //填网站链接
-            "tihuan": "cnzz.com", //这个不用动，是个别网站嗅探时过滤地址用的
-            "User": "空", //这个不用动，是个别网站播放需要请求头时才用到
-            "shouye": "1",
-            "fenlei": "电影$/vodshow/20--------#电视剧$/vodshow/21--------#动漫$/vodshow/22--------#综艺$/vodshow/23--------#Netflix(剧)$/vodshow/21---Netflix-----#国产剧$/vodshow/21-大陆-------#韩国剧$/vodshow/21-韩国-------#美国剧$/vodshow/21-美国-------#英国剧$/vodshow/21-英国-------#泰国剧$/vodshow/21-泰国-------#日本剧$/vodshow/21-日本-------#香港剧$/vodshow/21-香港-------#台湾剧$/vodshow/21-台湾-------#Netflix(片)$/vodshow/20---Netflix-----#仙侠片$/vodshow/20---仙侠-----#剧情片$/vodshow/20---剧情-----#科幻片$/vodshow/20---科幻-----#动作片$/vodshow/20---动作-----#喜剧片$/vodshow/20---喜剧-----#爱情片$/vodshow/20---爱情-----#冒险片$/vodshow/20---冒险-----#儿童片$/vodshow/20---儿童-----#歌舞片$/vodshow/20---歌舞-----#音乐片$/vodshow/20---音乐-----#奇幻片$/vodshow/20---奇幻-----#动画片$/vodshow/20---动画-----#恐怖片$/vodshow/20---恐怖-----#惊悚片$/vodshow/20---惊悚-----#战争片$/vodshow/20---战争-----#传记片$/vodshow/20---传记-----#纪录片$/vodshow/20---纪录-----#犯罪片$/vodshow/20---犯罪-----#悬疑片$/vodshow/20---悬疑-----#西部片$/vodshow/20---西部-----#灾难片$/vodshow/20---灾难-----#古装片$/vodshow/20---古装-----#武侠片$/vodshow/20---武侠-----#家庭片$/vodshow/20---家庭-----#短片$/vodshow/20---短片-----#运动片$/vodshow/20---运动-----#青春片$/vodshow/20---青春-----#同性片$/vodshow/20---同性-----#励志片$/vodshow/20---励志-----#历史片$/vodshow/20---历史-----", //网站列表的分类
-            "houzhui": "---.html", //网站翻页链接的后缀
-            "shifouercijiequ": "1", //截取的列表数组是否需要二次截取，0不需要，1需要
-            "jiequqian": "class=\"module-items", //不需要二次截取就填空
-            "jiequhou": "class=\"fixedGroup", //不需要二次截取就填空
-            "jiequshuzuqian": "<a", //截取的列表数组的前关键词,截取的关键词有 " 的用 \ 进行转义
-            "jiequshuzuhou": "alt=\"", //截取的列表数组的后关键词,截取的关键词有 " 的用 \ 进行转义
-            "tupianqian": "data-original=\"", //列表中资源的图片前关键词,截取的关键词有 " 的用 \ 进行转义
-            "tupianhou": "\"", //列表中资源的图片后关键词,截取的关键词有 " 的用 \ 进行转义
-            "biaotiqian": "title=\"", //列表中资源的标题前关键词,截取的关键词有 " 的用 \ 进行转义
-            "biaotihou": "\"", //列表中资源的标题后关键词,截取的关键词有 " 的用 \ 进行转义
-            "lianjieqian": "href=\"", //列表中资源的详情页跳转链接前关键词,截取的关键词有 " 的用 \ 进行转义
-            "lianjiehou": "\"", //列表中资源的详情页跳转链接后关键词,截取的关键词有 " 的用 \ 进行转义
-            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
-            "sousuohou": "&limit=500",
-            "sousuohouzhui": "/voddetail/", //搜索页影片跳转详情页的中间标识链接部分
+            "url": "https://www.dmxq.fun",
+            //访问请求头
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+            //播放请求头
+            "User": "空",
+            //0表示：记录，1表示：不记录
+            "是否记录历史": "0",
+            //直接播放截取的播放页链接网址，0表示：否，1表示：是
+            "直接播放": "0",
+            //分类页是否使用列表方式显示，0表示：否，1表示：是
+            "列表显示": "0",
+            //列表图片是否横图显示，0表示：否，1表示：是
+            "横图显示": "0",
+            //可以自定义列表翻页起始页的页数
+            "qishiye": "1",
+            //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
+            "fenlei": "电影$/vodshow/20--------#电视剧$/vodshow/21--------#动漫$/vodshow/22--------#综艺$/vodshow/23--------#Netflix(剧)$/vodshow/21---Netflix-----#国产剧$/vodshow/21-大陆-------#韩国剧$/vodshow/21-韩国-------#美国剧$/vodshow/21-美国-------#英国剧$/vodshow/21-英国-------#泰国剧$/vodshow/21-泰国-------#日本剧$/vodshow/21-日本-------#香港剧$/vodshow/21-香港-------#台湾剧$/vodshow/21-台湾-------#Netflix(片)$/vodshow/20---Netflix-----#仙侠片$/vodshow/20---仙侠-----#剧情片$/vodshow/20---剧情-----#科幻片$/vodshow/20---科幻-----#动作片$/vodshow/20---动作-----#喜剧片$/vodshow/20---喜剧-----#爱情片$/vodshow/20---爱情-----#冒险片$/vodshow/20---冒险-----#儿童片$/vodshow/20---儿童-----#歌舞片$/vodshow/20---歌舞-----#音乐片$/vodshow/20---音乐-----#奇幻片$/vodshow/20---奇幻-----#动画片$/vodshow/20---动画-----#恐怖片$/vodshow/20---恐怖-----#惊悚片$/vodshow/20---惊悚-----#战争片$/vodshow/20---战争-----#传记片$/vodshow/20---传记-----#纪录片$/vodshow/20---纪录-----#犯罪片$/vodshow/20---犯罪-----#悬疑片$/vodshow/20---悬疑-----#西部片$/vodshow/20---西部-----#灾难片$/vodshow/20---灾难-----#古装片$/vodshow/20---古装-----#武侠片$/vodshow/20---武侠-----#家庭片$/vodshow/20---家庭-----#短片$/vodshow/20---短片-----#运动片$/vodshow/20---运动-----#青春片$/vodshow/20---青春-----#同性片$/vodshow/20---同性-----#励志片$/vodshow/20---励志-----#历史片$/vodshow/20---历史-----",
+            "houzhui": "---.html",
+            "shifouercijiequ": "1",
+            "jiequqian": "class=\"module-items",
+            "jiequhou": "class=\"fixedGroup",
+            "jiequshuzuqian": "<a",
+            "jiequshuzuhou": "alt=\"",
+            //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
+            "tupianqian": "data-original=\"",
+            "tupianhou": "\"",
+            "tupianqianzhui": "空",
+            "biaotiqian": "title=\"",
+            "biaotihou": "\"",
+            "fubiaotiqian": "",
+            "fubiaotihou": "",
+            "lianjieqian": "href=\"",
+            "lianjiehou": "\"",
+            "ljqianzhui": "空",
+            "ljhouzhui": "空",
+            //搜索部分
+            //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
+            "搜索请求方式": "0",
             "ssmoshi": "0",
-            "sousuoshifouercijiequ": "0",
+            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+            "sousuohou": "&limit=150",
+            "sousuohouzhui": "/voddetail/",
             "jspic": "pic",
             "jsname": "name",
             "jsid": "id",
+            "sousuoshifouercijiequ": "0",
             "ssjiequqian": "空",
             "ssjiequhou": "空",
             "ssjiequshuzuqian": "空",
             "ssjiequshuzuhou": "空",
             "sstupianqian": "空",
             "sstupianhou": "空",
+            "sstupianqianzhui": "空",
             "ssbiaotiqian": "空",
             "ssbiaotihou": "空",
+            "ssfubiaotiqian": "空",
+            "ssfubiaotihou": "空",
             "sslianjieqian": "空",
             "sslianjiehou": "空",
+            "ssljqianzhui": "空",
+            "ssljhouzhui": "空",
+            //线路名称显示部分，0不启用，1启用
+            "是否启用播放线路名": "0",
+            "线路名是否二次截取": "0",
+            "线路名截取前": "空",
+            "线路名截取后": "空",
+            "线路名截取数组前": "空",
+            "线路名截取数组后": "空",
+            "线路名标题前": "空",
+            "线路名标题后": "空",
+            //状态，导演，演员，剧情的截取
+            "zhuangtaiqian": "备注：</span>",
+            "zhuangtaihou": "</div>",
+            "daoyanqian": "导演：</span>",
+            "daoyanhou": "</div>",
+            "zhuyanqian": "主演：</span>",
+            "zhuyanhou": "</div>",
+            "juqingqian": "n-content\"><p>",
+            "juqinghou": "</p>",
+            //播放集数截取部分
             "bfshifouercijiequ": "0",
             "bfjiequqian": "空",
             "bfjiequhou": "空",
-            "bfjiequshuzuqian": "class=\"module-play-list\"", //播放截取的列表数组的前关键词
-            "bfjiequshuzuhou": "</div>", //播放截取的列表数组的后关键词
-            "zhuangtaiqian": "备注：</span>", //状态前关键词
-            "zhuangtaihou": "</div>", //状态后关键词
-            "daoyanqian": "导演：</span>", //导演前关键词
-            "daoyanhou": "</div>", //导演态后关键词
-            "zhuyanqian": "主演：</span>", //主演前关键词
-            "zhuyanhou": "</div>", //主演后关键词
-            "juqingqian": "n-content\"><p>", //剧情前关键词
-            "juqinghou": "</p>", //剧情后关键词
-            "bfyshifouercijiequ": "0", //截取的播放列表数组是否需要二次截取，0不需要，1需要
-            "bfyjiequqian": "空", //不需要二次截取就填空
-            "bfyjiequhou": "空", //不需要二次截取就填空
-            "bfyjiequshuzuqian": "<a", //播放剧集数组前关键词
-            "bfyjiequshuzuhou": "/a>", //播放剧集数组后关键词
-            "bfbiaotiqian": "span>", //播放剧集标题前关键词
-            "bfbiaotihou": "</span", //状播放剧集标题后关键词
-            "bflianjieqian": "href=\"", //播放剧集链接前关键词
-            "bflianjiehou": "\""
-        }, //播放剧集链接后关键词
+            "bfjiequshuzuqian": "class=\"module-play-list\"",
+            "bfjiequshuzuhou": "</div>",
+            "bfyshifouercijiequ": "0",
+            "bfyjiequqian": "空",
+            "bfyjiequhou": "空",
+            "bfyjiequshuzuqian": "<a",
+            "bfyjiequshuzuhou": "/a>",
+            "bfbiaotiqian": "span>",
+            "bfbiaotihou": "</span",
+            "bflianjieqian": "href=\"",
+            "bflianjiehou": "\"",
+            "bfqianzhui": "空"
+        },
         {
             "name": "4K电影网",
             "url": "https://www.4kdyw.cn", //填网站链接
@@ -1907,7 +1945,13 @@
             //访问请求头
             "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
             //播放请求头
-            "User": "User-Agent$123",
+            "User": "空",
+            //填写播放地址寻找的地址标识词，中间用#号分割，不填写的话就使用全局的嗅探词
+            "嗅探词": "m3u8?#.m3u8#mp4#.flv#.mp3#.m4a",
+            //填写播放地址过滤规则，中间用#号分割，不填写的话就使用全局的过滤词
+            "过滤词": "?url=#.css#51.la#cnzz.com#baidu.com",
+            //访问请求cookie
+            "cookie": "",
             //0表示：记录，1表示：不记录
             "是否记录历史": "0",
             //直接播放截取的播放页链接网址，0表示：否，1表示：是
@@ -1919,13 +1963,13 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "日本动漫$/type/ribendongman#国产动漫$/type/guochandongman#欧美动漫$/type/oumeidongman#电影$/type/dianying",
+            "fenlei": "日本动漫电影$/vod/show/id/3#电影$/vod/show/id/2#日本动漫$/vod/show/id/6#动漫$/vod/show/id/1",
             "houzhui": ".html",
             "shifouercijiequ": "0",
             "jiequqian": "空",
             "jiequhou": "空",
             "jiequshuzuqian": "class=\"col-6 col-sm-4 col-lg-3\"",
-            "jiequshuzuhou": "</span>",
+            "jiequshuzuhou": "</div>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-src=\"",
             "tupianhou": "\"",
@@ -1942,7 +1986,7 @@
             //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
             "搜索请求方式": "0",
             "ssmoshi": "0",
-            "sousuoqian": "/vod/search.html?wd=",
+            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
             "sousuohou": "&limit=150",
             "sousuohouzhui": "/voddetail/",
             "jspic": "pic",
@@ -2070,104 +2114,6 @@
             "bflianjieqian": "href=\"",
             "bflianjiehou": "\"",
             "bfqianzhui": ""
-        },
-        {
-            "name": "大米星球",
-            "url": "https://www.dmxq.fun",
-            //访问请求头
-            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
-            //播放请求头
-            "User": "空",
-            //0表示：记录，1表示：不记录
-            "是否记录历史": "0",
-            //直接播放截取的播放页链接网址，0表示：否，1表示：是
-            "直接播放": "0",
-            //分类页是否使用列表方式显示，0表示：否，1表示：是
-            "列表显示": "0",
-            //列表图片是否横图显示，0表示：否，1表示：是
-            "横图显示": "0",
-            //可以自定义列表翻页起始页的页数
-            "qishiye": "1",
-            //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "电影$/vodshow/20--------#电视剧$/vodshow/21--------#动漫$/vodshow/22--------#综艺$/vodshow/23--------#Netflix(剧)$/vodshow/21---Netflix-----#国产剧$/vodshow/21-大陆-------#韩国剧$/vodshow/21-韩国-------#美国剧$/vodshow/21-美国-------#英国剧$/vodshow/21-英国-------#泰国剧$/vodshow/21-泰国-------#日本剧$/vodshow/21-日本-------#香港剧$/vodshow/21-香港-------#台湾剧$/vodshow/21-台湾-------#Netflix(片)$/vodshow/20---Netflix-----#仙侠片$/vodshow/20---仙侠-----#剧情片$/vodshow/20---剧情-----#科幻片$/vodshow/20---科幻-----#动作片$/vodshow/20---动作-----#喜剧片$/vodshow/20---喜剧-----#爱情片$/vodshow/20---爱情-----#冒险片$/vodshow/20---冒险-----#儿童片$/vodshow/20---儿童-----#歌舞片$/vodshow/20---歌舞-----#音乐片$/vodshow/20---音乐-----#奇幻片$/vodshow/20---奇幻-----#动画片$/vodshow/20---动画-----#恐怖片$/vodshow/20---恐怖-----#惊悚片$/vodshow/20---惊悚-----#战争片$/vodshow/20---战争-----#传记片$/vodshow/20---传记-----#纪录片$/vodshow/20---纪录-----#犯罪片$/vodshow/20---犯罪-----#悬疑片$/vodshow/20---悬疑-----#西部片$/vodshow/20---西部-----#灾难片$/vodshow/20---灾难-----#古装片$/vodshow/20---古装-----#武侠片$/vodshow/20---武侠-----#家庭片$/vodshow/20---家庭-----#短片$/vodshow/20---短片-----#运动片$/vodshow/20---运动-----#青春片$/vodshow/20---青春-----#同性片$/vodshow/20---同性-----#励志片$/vodshow/20---励志-----#历史片$/vodshow/20---历史-----",
-            "houzhui": "---.html",
-            "shifouercijiequ": "1",
-            "jiequqian": "class=\"module-items",
-            "jiequhou": "class=\"fixedGroup",
-            "jiequshuzuqian": "<a",
-            "jiequshuzuhou": "alt=\"",
-            //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
-            "tupianqian": "data-original=\"",
-            "tupianhou": "\"",
-            "tupianqianzhui": "空",
-            "biaotiqian": "title=\"",
-            "biaotihou": "\"",
-            "fubiaotiqian": "",
-            "fubiaotihou": "",
-            "lianjieqian": "href=\"",
-            "lianjiehou": "\"",
-            "ljqianzhui": "空",
-            "ljhouzhui": "空",
-            //搜索部分
-            //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
-            "搜索请求方式": "0",
-            "ssmoshi": "0",
-            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
-            "sousuohou": "&limit=150",
-            "sousuohouzhui": "/voddetail/",
-            "jspic": "pic",
-            "jsname": "name",
-            "jsid": "id",
-            "sousuoshifouercijiequ": "0",
-            "ssjiequqian": "空",
-            "ssjiequhou": "空",
-            "ssjiequshuzuqian": "空",
-            "ssjiequshuzuhou": "空",
-            "sstupianqian": "空",
-            "sstupianhou": "空",
-            "sstupianqianzhui": "空",
-            "ssbiaotiqian": "空",
-            "ssbiaotihou": "空",
-            "ssfubiaotiqian": "空",
-            "ssfubiaotihou": "空",
-            "sslianjieqian": "空",
-            "sslianjiehou": "空",
-            "ssljqianzhui": "空",
-            "ssljhouzhui": "空",
-            //线路名称显示部分，0不启用，1启用
-            "是否启用播放线路名": "0",
-            "线路名是否二次截取": "0",
-            "线路名截取前": "空",
-            "线路名截取后": "空",
-            "线路名截取数组前": "空",
-            "线路名截取数组后": "空",
-            "线路名标题前": "空",
-            "线路名标题后": "空",
-            //状态，导演，演员，剧情的截取
-            "zhuangtaiqian": "备注：</span>",
-            "zhuangtaihou": "</div>",
-            "daoyanqian": "导演：</span>",
-            "daoyanhou": "</div>",
-            "zhuyanqian": "主演：</span>",
-            "zhuyanhou": "</div>",
-            "juqingqian": "n-content\"><p>",
-            "juqinghou": "</p>",
-            //播放集数截取部分
-            "bfshifouercijiequ": "0",
-            "bfjiequqian": "空",
-            "bfjiequhou": "空",
-            "bfjiequshuzuqian": "class=\"module-play-list\"",
-            "bfjiequshuzuhou": "</div>",
-            "bfyshifouercijiequ": "0",
-            "bfyjiequqian": "空",
-            "bfyjiequhou": "空",
-            "bfyjiequshuzuqian": "<a",
-            "bfyjiequshuzuhou": "/a>",
-            "bfbiaotiqian": "span>",
-            "bfbiaotihou": "</span",
-            "bflianjieqian": "href=\"",
-            "bflianjiehou": "\"",
-            "bfqianzhui": "空"
         }
     ]
 }
