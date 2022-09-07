@@ -1969,7 +1969,7 @@
             "jiequqian": "空",
             "jiequhou": "空",
             "jiequshuzuqian": "class=\"pannel clearfix\"",
-            "jiequshuzuhou": "</ul>",
+            "jiequshuzuhou": "</div>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-original=\"",
             "tupianhou": "\"",
