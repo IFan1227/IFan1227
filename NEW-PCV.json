@@ -223,7 +223,7 @@
             //"User": "空", //这个不用动，是个别网站播放需要请求头时才用到
             "User": "User-Agent:Dart/2.14 (dart:io)",
             "shouye": "1",
-            "fenlei": "日本动漫$/list/lm1_#国产动漫$/list/lm2_#欧美动漫$/list/lm3_#剧场电影$/list/lm4_#次元影视$/list/lm5_", //网站列表的分类
+            "fenlei": "日本动漫$/list/lm1#国产动漫$/list/lm2#欧美动漫$/list/lm3#剧场电影$/list/lm4#次元影视$/list/lm5", //网站列表的分类
             "houzhui": ".html", //网站翻页链接的后缀
             "shifouercijiequ": "0", //截取的列表数组是否需要二次截取，0不需要，1需要
             "jiequqian": "空", //不需要二次截取就填空
@@ -1986,8 +1986,8 @@
             //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
             "搜索请求方式": "0",
             "ssmoshi": "0",
-            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
-            "sousuohou": "&limit=150",
+            "sousuoqian": "/vod/search.html?wd=",
+            "sousuohou": "detail",
             "sousuohouzhui": "/voddetail/",
             "jspic": "pic",
             "jsname": "name",
@@ -2018,20 +2018,20 @@
             "线路名标题前": "空",
             "线路名标题后": "空",
             //状态，导演，演员，剧情的截取
-            "zhuangtaiqian": "class=\"otherbox\">",
-            "zhuangtaihou": "</p>",
+            "zhuangtaiqian": "集数：</span>",
+            "zhuangtaihou": "</div>",
             "daoyanqian": "导演：</span>",
-            "daoyanhou": "</p>",
+            "daoyanhou": "</div>",
             "zhuyanqian": "主演：</span>",
-            "zhuyanhou": "</p>",
-            "juqingqian": "<span class=\"data\"",
+            "zhuyanhou": "</div>",
+            "juqingqian": "<span class=\"content-text none\"",
             "juqinghou": "</span>",
             //播放集数截取部分
             "bfshifouercijiequ": "0",
             "bfjiequqian": "空",
             "bfjiequhou": "空",
-            "bfjiequshuzuqian": "id=\"playlist",
-            "bfjiequshuzuhou": "</ul>",
+            "bfjiequshuzuqian": "class=\"module-blocklist scroll-box scroll-box-y\"",
+            "bfjiequshuzuhou": "</div>",
             "bfyshifouercijiequ": "0",
             "bfyjiequqian": "空",
             "bfyjiequhou": "空",
@@ -2039,7 +2039,7 @@
             "bfyjiequshuzuhou": "/a>",
             "bfbiaotiqian": ">",
             "bfbiaotihou": "<",
-            "bflianjieqian": "href=\"",
+            "bflianjieqian": "title=\"",
             "bflianjiehou": "\"",
             "bfqianzhui": "空"
         },
