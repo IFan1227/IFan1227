@@ -472,13 +472,13 @@
             "jiequqian": "空",
             "jiequhou": "空",
             "jiequshuzuqian": "class=\"col-6 col-sm-4 col-lg-3\"",
-            "jiequshuzuhou": "</h6>",
+            "jiequshuzuhou": "</div>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-src=\"",
             "tupianhou": "\"",
             "tupianqianzhui": "空",
-            "biaotiqian": "class=\"title\">",
-            "biaotihou": "</a>",
+            "biaotiqian": "title=\"",
+            "biaotihou": "\"",
             "fubiaotiqian": "",
             "fubiaotihou": "",
             "lianjieqian": "href=\"",
@@ -2147,7 +2147,7 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "连续剧$/vodshow/2--------#电影$/vodshow/1--------#综艺$/vodshow/3--------#动漫$/vodshow/4--------#肉番$/vodshow/4---%E8%82%89%E7%95%AA-----#里番$/vodshow/4---%E9%87%8C%E7%95%AA-----#萝莉$/vodshow/4---%E8%90%9D%E8%8E%89-----",
+            "fenlei": "连续剧$/vodshow/2--------#科幻片$/vodshow/9--------#动作片$/vodshow/6--------#恐怖片$/vodshow/10--------#动漫$/vodshow/4--------#肉番$/vodshow/4---%E8%82%89%E7%95%AA-----#里番$/vodshow/4---%E9%87%8C%E7%95%AA-----#萝莉$/vodshow/4---%E8%90%9D%E8%8E%89-----",
             "houzhui": "---.html",
             "shifouercijiequ": "1",
             "jiequqian": "class=\"vodlist vodlist_wi author*qq3626/95/000 clearfix\"",
@@ -2251,7 +2251,7 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "首页$/#更早$/old/index#17年$/2017/index#18年$/2018/index#19年$/2019/index#20年$/2020/index#21年$/2021/index#22年$/2022/index",
+            "fenlei": "  更早$/old/index#17年$/2017/index#  18年$/2018/index#  19年$/2019/index#  20年$/2020/index#  21年$/2021/index#  22年$/2022/index",
             "houzhui": ".html",
             "shifouercijiequ": "0",
             "jiequqian": "空",
@@ -2356,8 +2356,8 @@
             "fubiaotihou": "                            </div>"
         },
         {
-            "name": "鼠仓鼠",
-            "url": "http://2021-12-01ahriv.cyou",
+            "name": "妖次元视频站",
+            "url": "https://tv.yaociyuan.fun",
             //访问请求头
             "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
             //播放请求头
@@ -2379,15 +2379,15 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "动画$/index.php?route=animation/list#真人$/index.php?route=video/jav/getList#偶像艺人$index.php?route=video/jav/getList&tag_id=148#后宫$index.php?route=video/jav/getList&tag_id=39715#高中女生$index.php?route=video/jav/getList&tag_id=14#美少女$index.php?route=video/jav/getList&tag_id=522",
-            "houzhui": "",
-            "shifouercijiequ": "1",
-            "jiequqian": "class=\"gallery video_gallery isotope\"",
-            "jiequhou": "</div>",
-            "jiequshuzuqian": "class=\"apo\"",
-            "jiequshuzuhou": "</h5>",
+            "fenlei": "日本无码$/frim/index30#日本有码$/frim/index31#中文字幕$/frim/index32#欧美精品$/frim/index29#成人动漫$/frim/index34#骚货萝莉$/frim/index36#偷拍自拍/frim/index39#sm重口$/frim/index42#小视频$/frim/index43#ai换脸$/frim/index45#福利视频$/frim/index47#海外明星$/frim/index48",
+            "houzhui": ".html",
+            "shifouercijiequ": "0",
+            "jiequqian": "空",
+            "jiequhou": "空",
+            "jiequshuzuqian": "class=\"col-lg-2 col-md-4 col-6\"",
+            "jiequshuzuhou": "</div>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
-            "tupianqian": "src=\"",
+            "tupianqian": "data-src=\"",
             "tupianhou": "\"",
             "tupianqianzhui": "空",
             "biaotiqian": "title=\"",
@@ -2402,9 +2402,9 @@
             //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
             "搜索请求方式": "0",
             "ssmoshi": "0",
-            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+            "sousuoqian": "/search.php?cat=%2Fsearch.php&searchword=",
             "sousuohou": "&limit=150",
-            "sousuohouzhui": "/voddetail/",
+            "sousuohouzhui": "/play/",
             "jspic": "pic",
             "jsname": "name",
             "jsid": "id",
@@ -2434,20 +2434,20 @@
             "线路名标题前": "空",
             "线路名标题后": "空",
             //状态，导演，演员，剧情的截取
-            "zhuangtaiqian": "发行日期:</span>",
-            "zhuangtaihou": "</p>",
-            "daoyanqian": "导演：</p>",
-            "daoyanhou": "</span>",
-            "zhuyanqian": "发行商: </p>",
-            "zhuyanhou": "</span>",
-            "juqingqian": "<span class=\"data\"",
-            "juqinghou": "</span>",
+            "zhuangtaiqian": "更新：</span>",
+            "zhuangtaihou": "</b>",
+            "daoyanqian": "导演：</span>",
+            "daoyanhou": "</b>",
+            "zhuyanqian": "分类：</span>",
+            "zhuyanhou": "</b>",
+            "juqingqian": "class=\"container\"",
+            "juqinghou": "</p>",
             //播放集数截取部分
             "bfshifouercijiequ": "0",
             "bfjiequqian": "空",
             "bfjiequhou": "空",
-            "bfjiequshuzuqian": "class=\"table table-bordered\"",
-            "bfjiequshuzuhou": "</table>",
+            "bfjiequshuzuqian": "class=\"accordion sort-list px1\"",
+            "bfjiequshuzuhou": "</a>",
             "bfyshifouercijiequ": "0",
             "bfyjiequqian": "空",
             "bfyjiequhou": "空",
