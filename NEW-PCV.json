@@ -115,7 +115,7 @@
             "biaotihou": "\"", //列表中资源的标题后关键词,截取的关键词有 " 的用 \ 进行转义
             "lianjieqian": "href=\"", //列表中资源的详情页跳转链接前关键词,截取的关键词有 " 的用 \ 进行转义
             "lianjiehou": "\"", //列表中资源的详情页跳转链接后关键词,截取的关键词有 " 的用 \ 进行转义
-            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=天使的心跳",
+            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
             "sousuohou": "&limit=500",
             "sousuohouzhui": "/vod/detail/id/", //搜索页影片跳转详情页的中间标识链接部分
             "ssmoshi": "0",
@@ -1965,11 +1965,11 @@
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
             "fenlei": "番剧$/index.php/vod/show/id/20#BD无修$/index.php/vod/show/class/BD%E6%97%A0%E4%BF%AE/id/20#萝莉$/index.php/vod/show/class/%E8%90%9D%E8%8E%89/id/20#魔法$/index.php/vod/show/class/%E9%AD%94%E6%B3%95/id/20#OAV$/index.php/vod/show/class/OVA/id/20#剧场版$/index.php/vod/show/class/%E5%89%A7%E5%9C%BA%E7%89%88/id/20",
             "houzhui": ".html",
-            "shifouercijiequ": "0",
-            "jiequqian": "空",
-            "jiequhou": "空",
-            "jiequshuzuqian": "class=\"vodlist\"",
-            "jiequshuzuhou": "</ul>",
+            "shifouercijiequ": "1",
+            "jiequqian": "<ul class=\"vodlist vodlist_wi author*qq3626/95/000 clearfix",
+            "jiequhou": "</ul>",
+            "jiequshuzuqian": "<a",
+            "jiequshuzuhou": "</a>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-original=\"",
             "tupianhou": "\"",
@@ -1986,9 +1986,9 @@
             //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
             "搜索请求方式": "0",
             "ssmoshi": "0",
-            "sousuoqian": "/index.php/vod/search.html?wd=",
+            "sousuoqian": "/index.php/vod/search.html?wd=&submit=",
             "sousuohou": "&limit=150",
-            "sousuohouzhui": "/detail/id/",
+            "sousuohouzhui": "/index.php/vod/detail/id/",
             "jspic": "pic",
             "jsname": "name",
             "jsid": "id",
