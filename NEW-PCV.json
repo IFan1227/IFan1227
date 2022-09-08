@@ -1963,12 +1963,12 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "番剧$/index.php/vod/show/id/20#BD无修$/index.php/vod/show/class/BD%E6%97%A0%E4%BF%AE/id/20#萝莉$/index.php/vod/show/class/%E8%90%9D%E8%8E%89/id/20#魔法$/index.php/vod/show/class/%E9%AD%94%E6%B3%95/id/20#OAV$/index.php/vod/show/class/OVA/id/20#剧场版$/index.php/vod/show/class/%E5%89%A7%E5%9C%BA%E7%89%88/id/20",
+            "fenlei": "番剧$/index.php/vod/show/id/20#BD无修$/index.php/vod/show/class/BD%E6%97%A0%E4%BF%AE/id/20#萝莉$/index.php/vod/show/class/%E8%90%9D%E8%8E%89/id/20#魔法$/index.php/vod/show/class/%E9%AD%94%E6%B3%95/id/20#OAV$/index.php/vod/show/class/OAV/id/20#剧场版$/index.php/vod/show/class/%E5%89%A7%E5%9C%BA%E7%89%88/id/20",
             "houzhui": ".html",
             "shifouercijiequ": "1",
             "jiequqian": "<ul class=\"vodlist vodlist_wi author*qq3626/95/000 clearfix",
             "jiequhou": "</ul>",
-            "jiequshuzuqian": "<a",
+            "jiequshuzuqian": "<li",
             "jiequshuzuhou": "</span>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-original=\"",
@@ -2141,8 +2141,8 @@
             "bfyjiequhou": "空",
             "bfyjiequshuzuqian": "<a",
             "bfyjiequshuzuhou": "title=",
-            "bfbiaotiqian": "<span>",
-            "bfbiaotihou": "</span>",
+            "bfbiaotiqian": "title=",
+            "bfbiaotihou": "\"",
             "bflianjieqian": "href=\"",
             "bflianjiehou": "\"",
             "bfqianzhui": "空"
