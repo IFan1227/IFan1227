@@ -2147,7 +2147,7 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "连续剧$/vodshow/2--------#电影$/vodshow/1--------#综艺$/vodshow/3--------#动漫$/vodshow/4--------#肉番$/vodshow/4---%E8%82%89%E7%95%AA-----#里番/vodshow/4---%E9%87%8C%E7%95%AA-----#萝莉$/vodshow/4---%E8%90%9D%E8%8E%89-----",
+            "fenlei": "连续剧$/vodshow/2--------#电影$/vodshow/1--------#综艺$/vodshow/3--------#动漫$/vodshow/4--------#肉番$/vodshow/4---%E8%82%89%E7%95%AA-----#里番$/vodshow/4---%E9%87%8C%E7%95%AA-----#萝莉$/vodshow/4---%E8%90%9D%E8%8E%89-----",
             "houzhui": "---.html",
             "shifouercijiequ": "1",
             "jiequqian": "class=\"vodlist vodlist_wi author*qq3626/95/000 clearfix\"",
