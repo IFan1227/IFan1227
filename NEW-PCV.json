@@ -1968,7 +1968,7 @@
             "shifouercijiequ": "0",
             "jiequqian": "空",
             "jiequhou": "空",
-            "jiequshuzuqian": "class=\"vodlist_item num_2\"",
+            "jiequshuzuqian": "class=\"vodlist\"",
             "jiequshuzuhou": "</ul>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-original=\"",
@@ -1988,7 +1988,7 @@
             "ssmoshi": "0",
             "sousuoqian": "/index.php/vod/search.html?wd=",
             "sousuohou": "&limit=150",
-            "sousuohouzhui": "/index.php/vod/detail/id/",
+            "sousuohouzhui": "/detail/id/",
             "jspic": "pic",
             "jsname": "name",
             "jsid": "id",
