@@ -1969,7 +1969,7 @@
             "jiequqian": "<ul class=\"vodlist vodlist_wi author*qq3626/95/000 clearfix",
             "jiequhou": "</ul>",
             "jiequshuzuqian": "<a",
-            "jiequshuzuhou": "</a>",
+            "jiequshuzuhou": "</span>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-original=\"",
             "tupianhou": "\"",
@@ -2063,7 +2063,7 @@
             //分类页是否使用列表方式显示，0表示：否，1表示：是
             "列表显示": "0",
             //列表图片是否横图显示，0表示：否，1表示：是
-            "横图显示": "0",
+            "横图显示": "1",
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
@@ -2091,8 +2091,8 @@
             "搜索请求方式": "0",
             "ssmoshi": "0",
             "sousuoqian": "/vod/search.html?wd=",
-            "sousuohou": "detail",
-            "sousuohouzhui": "/voddetail/",
+            "sousuohou": "&limit=150",
+            "sousuohouzhui": "/detail/",
             "jspic": "pic",
             "jsname": "name",
             "jsid": "id",
@@ -2123,9 +2123,9 @@
             "线路名标题后": "空",
             //状态，导演，演员，剧情的截取
             "zhuangtaiqian": "集数：</span>",
-            "zhuangtaihou": "</div>",
+            "zhuangtaihou": "class=\"video-info-items\"",
             "daoyanqian": "导演：</span>",
-            "daoyanhou": "</div>",
+            "daoyanhou": "</a>",
             "zhuyanqian": "主演：</span>",
             "zhuyanhou": "</div>",
             "juqingqian": "<span class=\"content-text none\"",
@@ -2134,16 +2134,16 @@
             "bfshifouercijiequ": "0",
             "bfjiequqian": "空",
             "bfjiequhou": "空",
-            "bfjiequshuzuqian": "class=\"module-blocklist scroll-box scroll-box-y\"",
+            "bfjiequshuzuqian": "class=\"scroll-content\"",
             "bfjiequshuzuhou": "</div>",
             "bfyshifouercijiequ": "0",
             "bfyjiequqian": "空",
             "bfyjiequhou": "空",
             "bfyjiequshuzuqian": "<a",
-            "bfyjiequshuzuhou": "/a>",
-            "bfbiaotiqian": ">",
-            "bfbiaotihou": "<",
-            "bflianjieqian": "title=\"",
+            "bfyjiequshuzuhou": "title=",
+            "bfbiaotiqian": "<span>",
+            "bfbiaotihou": "</span>",
+            "bflianjieqian": "href=\"",
             "bflianjiehou": "\"",
             "bfqianzhui": "空"
         },
