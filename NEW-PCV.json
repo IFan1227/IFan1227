@@ -360,7 +360,7 @@
             //列表图片是否横图显示，0表示：否，1表示：是
             "横图显示": "0",
             //可以自定义列表翻页起始页的页数
-            "qishiye": "1",
+            //"qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
             "fenlei": "番剧$/index.php/vod/show/id/20/page/#BD无修$/index.php/vod/show/class/BD%E6%97%A0%E4%BF%AE/id/20/page/#萝莉$/index.php/vod/show/class/%E8%90%9D%E8%8E%89/id/20/page/#魔法$/index.php/vod/show/class/%E9%AD%94%E6%B3%95/id/20/page/#OAV$/index.php/vod/show/class/OVA/id/20/page/#剧场版$/index.php/vod/show/class/%E5%89%A7%E5%9C%BA%E7%89%88/id/20/page/",
             "houzhui": ".html",
@@ -2280,8 +2280,8 @@
             "shifouercijiequ": "0",
             "jiequqian": "空",
             "jiequhou": "空",
-            "jiequshuzuqian": "<div class=\"col-lg-2 col-md-4 col-6",
-            "jiequshuzuhou": "class=\"meta-post-type1\"",
+            "jiequshuzuqian": "class=\"entry-media\"",
+            "jiequshuzuhou": "</span>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-src=\"",
             "tupianhou": "\"",
