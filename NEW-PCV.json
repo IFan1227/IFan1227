@@ -2254,8 +2254,8 @@
             "fenlei": "全部$/f/1--------#全部$/f/2--------#冒险$/f/2---%E5%86%92%E9%99%A9-----#热血$/f/2---%E7%83%AD%E8%A1%80-----#魔幻$/f/2---%E9%AD%94%E5%B9%BB-----#后宫$/f/2---%E5%90%8E%E5%AE%AB-----",
             "houzhui": "---.html",
             "shifouercijiequ": "1",
-            "jiequqian": "class=\"module\"",
-            "jiequhou": "</div>",
+            "jiequqian": "<img style=\"",
+            "jiequhou": "class=\"fixedGroup\"",
             "jiequshuzuqian": "<a",
             "jiequshuzuhou": "</a>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
