@@ -362,11 +362,11 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "番剧$/index.php/vod/show/id/20#BD无修$/index.php/vod/show/class/BD%E6%97%A0%E4%BF%AE/id/20#萝莉$/index.php/vod/show/class/%E8%90%9D%E8%8E%89/id/20#魔法$/index.php/vod/show/class/%E9%AD%94%E6%B3%95/id/20#OAV$/index.php/vod/show/class/OVA/id/20#剧场版$/index.php/vod/show/class/%E5%89%A7%E5%9C%BA%E7%89%88/id/20",
+            "fenlei": "番剧$/index.php/vod/show/id/20/page/#BD无修$/index.php/vod/show/class/BD%E6%97%A0%E4%BF%AE/id/20/page/#萝莉$/index.php/vod/show/class/%E8%90%9D%E8%8E%89/id/20/page/#魔法$/index.php/vod/show/class/%E9%AD%94%E6%B3%95/id/20/page/#OAV$/index.php/vod/show/class/OVA/id/20/page/#剧场版$/index.php/vod/show/class/%E5%89%A7%E5%9C%BA%E7%89%88/id/20/page/",
             "houzhui": ".html",
             "shifouercijiequ": "1",
             "jiequqian": "<ul class=\"vodlist vodlist_wi author*qq3626/95/000 clearfix",
-            "jiequhou": "</ul>",
+            "jiequhou": "</div>",
             "jiequshuzuqian": "<li",
             "jiequshuzuhou": "</span>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
@@ -2137,7 +2137,7 @@
             //访问请求cookie
             "cookie": "",
             //0表示：记录，1表示：不记录
-            "是否记录历史": "0",
+            "是否记录历史": "1",
             //直接播放截取的播放页链接网址，0表示：否，1表示：是
             "直接播放": "0",
             //分类页是否使用列表方式显示，0表示：否，1表示：是
@@ -2228,110 +2228,6 @@
             "bfqianzhui": "空"
         },
         {
-            "name": "妖次元里番",
-            "url": "https://www.ycylf.net",
-            //访问请求头
-            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
-            //播放请求头
-            "User": "空",
-            //填写播放地址寻找的地址标识词，中间用#号分割，不填写的话就使用全局的嗅探词
-            "嗅探词": "m3u8?#.m3u8#mp4#.flv#.mp3#.m4a",
-            //填写播放地址过滤规则，中间用#号分割，不填写的话就使用全局的过滤词
-            "过滤词": "?url=#.css#51.la#cnzz.com#baidu.com",
-            //访问请求cookie
-            "cookie": "",
-            //0表示：记录，1表示：不记录
-            "是否记录历史": "0",
-            //直接播放截取的播放页链接网址，0表示：否，1表示：是
-            "直接播放": "0",
-            //分类页是否使用列表方式显示，0表示：否，1表示：是
-            "列表显示": "0",
-            //列表图片是否横图显示，0表示：否，1表示：是
-            "横图显示": "0",
-            //可以自定义列表翻页起始页的页数
-            "qishiye": "1",
-            //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "  更早$/old/index#17年$/2017/index#  18年$/2018/index#  19年$/2019/index#  20年$/2020/index#  21年$/2021/index#  22年$/2022/index",
-            "houzhui": ".html",
-            "shifouercijiequ": "0",
-            "jiequqian": "空",
-            "jiequhou": "空",
-            "jiequshuzuqian": "class=\"stui-vodlist__item\"",
-            "jiequshuzuhou": "</li>",
-            //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
-            "tupianqian": "data-original=\"",
-            "tupianhou": "\"",
-            "tupianqianzhui": "空",
-            "biaotiqian": "title=\"",
-            "biaotihou": "\"",
-            "fubiaotiqian": "",
-            "fubiaotihou": "",
-            "lianjieqian": "href=\"",
-            "lianjiehou": "\"",
-            "ljqianzhui": "空",
-            "ljhouzhui": "空",
-            //搜索部分
-            //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
-            "搜索请求方式": "0",
-            "ssmoshi": "0",
-            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
-            "sousuohou": "&limit=150",
-            "sousuohouzhui": "",
-            "jspic": "pic",
-            "jsname": "name",
-            "jsid": "id",
-            "sousuoshifouercijiequ": "0",
-            "ssjiequqian": "空",
-            "ssjiequhou": "空",
-            "ssjiequshuzuqian": "空",
-            "ssjiequshuzuhou": "空",
-            "sstupianqian": "空",
-            "sstupianhou": "空",
-            "sstupianqianzhui": "空",
-            "ssbiaotiqian": "空",
-            "ssbiaotihou": "空",
-            "ssfubiaotiqian": "空",
-            "ssfubiaotihou": "空",
-            "sslianjieqian": "空",
-            "sslianjiehou": "空",
-            "ssljqianzhui": "空",
-            "ssljhouzhui": "空",
-            //线路名称显示部分，0不启用，1启用
-            "是否启用播放线路名": "0",
-            "线路名是否二次截取": "0",
-            "线路名截取前": "空",
-            "线路名截取后": "空",
-            "线路名截取数组前": "空",
-            "线路名截取数组后": "空",
-            "线路名标题前": "空",
-            "线路名标题后": "空",
-            //状态，导演，演员，剧情的截取
-            "zhuangtaiqian": "class=\"link-instanted\"",
-            "zhuangtaihou": "</span>",
-            "daoyanqian": "导演：</span>",
-            "daoyanhou": "</p>",
-            "zhuyanqian": "主演：</span>",
-            "zhuyanhou": "</p>",
-            "juqingqian": "<span class=\"data\"",
-            "juqinghou": "</span>",
-            //播放集数截取部分
-            "bfshifouercijiequ": "0",
-            "bfjiequqian": "空",
-            "bfjiequhou": "空",
-            "bfjiequshuzuqian": "class=\"stui-content__playlist clearfix\"",
-            "bfjiequshuzuhou": "</ul>",
-            "bfyshifouercijiequ": "0",
-            "bfyjiequqian": "空",
-            "bfyjiequhou": "空",
-            "bfyjiequshuzuqian": "<a",
-            "bfyjiequshuzuhou": "/a>",
-            "bfbiaotiqian": ">",
-            "bfbiaotihou": "<",
-            "bflianjieqian": "href=\"",
-            "bflianjiehou": "\"",
-            "bfqianzhui": "空"
-        }, 
-        {
             "name": "直播",
             "url": "https://www.zhibo8.net",
             "User": "空",
@@ -2381,13 +2277,13 @@
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
             "fenlei": "日本无码$/frim/index30#日本有码$/frim/index31#中文字幕$/frim/index32#欧美精品$/frim/index29#成人动漫$/frim/index34#骚货萝莉$/frim/index36#偷拍自拍$/frim/index39#sm重口$/frim/index42#小视频$/frim/index43#ai换脸$/frim/index45#福利视频$/frim/index47#海外明星$/frim/index48",
             "houzhui": ".html",
-            "shifouercijiequ": "0",
-            "jiequqian": "空",
-            "jiequhou": "空",
-            "jiequshuzuqian": "class=\"module posts-wrapper grid\"",
-            "jiequshuzuhou": "</div>",
+            "shifouercijiequ": "1",
+            "jiequqian": "class=\"section rizhuti_v2-widget-lastpost\"",
+            "jiequhou": "</div>",
+            "jiequshuzuqian": "class=\"col-lg-2 col-md-4 col-6\"",
+            "jiequshuzuhou": "\class="meta-post-type1\"",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
-            "tupianqian": "src=\"",
+            "tupianqian": "data-src=\"",
             "tupianhou": "\"",
             "tupianqianzhui": "空",
             "biaotiqian": "alt=\"",
