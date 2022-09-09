@@ -2281,7 +2281,7 @@
             "jiequqian": "class=\"section rizhuti_v2-widget-lastpost\"",
             "jiequhou": "</div>",
             "jiequshuzuqian": "class=\"col-lg-2 col-md-4 col-6\"",
-            "jiequshuzuhou": "\class="meta-post-type1\"",
+            "jiequshuzuhou": "class=\"meta-post-type1\"",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-src=\"",
             "tupianhou": "\"",
