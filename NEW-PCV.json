@@ -283,13 +283,13 @@
             "tihuan": "cnzz.com", //这个不用动，是个别网站嗅探时过滤地址用的
             "User": "空", //这个不用动，是个别网站播放需要请求头时才用到
             "shouye": "1",
-            "fenlei": "热门新番$/index.php/vod/show/id/23/page/#日本动漫$/index.php/vod/show/id/21/page/#国产动漫$/index.php/vod/show/id/22/page/#欧美动漫$/index.php/vod/show/id/25/page/#动漫电影$/index.php/vod/show/id/24/page/#剧集$/index.php/vod/show/id/27/page/#电影$/index.php/vod/show/id/28/page/#综艺$/index.php/vod/show/id/31/page/", //网站列表的分类
+            "fenlei": "热门新番$/index.php/vod/show/id/23/page/#日本动漫$/index.php/vod/show/id/21/page/#国产动漫$/index.php/vod/show/id/22/page/#欧美动漫$/index.php/vod/show/id/25/page/#动漫电影$/index.php/vod/show/id/24/page/#后宫$/index.php/vod/show/by/hits/class/%E5%90%8E%E5%AE%AB/id/20/page/#治愈$/index.php/vod/show/by/hits/class/%E6%B2%BB%E6%84%88/id/20/page/#萝莉$/index.php/vod/show/by/hits/class/%E8%90%9D%E8%8E%89/id/20/page/#肉番$/index.php/vod/show/by/hits/class/%E8%82%89%E7%95%AA/id/20/page/#剧集$/index.php/vod/show/id/27/page/#电影$/index.php/vod/show/id/28/page/#综艺$/index.php/vod/show/id/31/page/", //网站列表的分类
             "houzhui": ".html", //网站翻页链接的后缀
             "shifouercijiequ": "0", //截取的列表数组是否需要二次截取，0不需要，1需要
             "jiequqian": "空", //不需要二次截取就填空
             "jiequhou": "空", //不需要二次截取就填空
-            "jiequshuzuqian": "class=\"module-item-pic\"", //截取的列表数组的前关键词,截取的关键词有 " 的用 \ 进行转义
-            "jiequshuzuhou": "alt=\"", //截取的列表数组的后关键词,截取的关键词有 " 的用 \ 进行转义
+            "jiequshuzuqian": "class=\"hl-vod-list clearfix\"", //截取的列表数组的前关键词,截取的关键词有 " 的用 \ 进行转义
+            "jiequshuzuhou": "</ul>", //截取的列表数组的后关键词,截取的关键词有 " 的用 \ 进行转义
             "tupianqian": "src=\"", //列表中资源的图片前关键词,截取的关键词有 " 的用 \ 进行转义
             "tupianhou": "\"", //列表中资源的图片后关键词,截取的关键词有 " 的用 \ 进行转义
             "biaotiqian": "title=\"", //列表中资源的标题前关键词,截取的关键词有 " 的用 \ 进行转义
@@ -360,7 +360,7 @@
             //列表图片是否横图显示，0表示：否，1表示：是
             "横图显示": "0",
             //可以自定义列表翻页起始页的页数
-            //"qishiye": "1",
+            "shouye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
             "fenlei": "番剧$/index.php/vod/show/id/20/page/#BD无修$/index.php/vod/show/class/BD%E6%97%A0%E4%BF%AE/id/20/page/#萝莉$/index.php/vod/show/class/%E8%90%9D%E8%8E%89/id/20/page/#魔法$/index.php/vod/show/class/%E9%AD%94%E6%B3%95/id/20/page/#OAV$/index.php/vod/show/class/OVA/id/20/page/#剧场版$/index.php/vod/show/class/%E5%89%A7%E5%9C%BA%E7%89%88/id/20/page/",
             "houzhui": ".html",
