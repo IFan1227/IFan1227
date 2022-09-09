@@ -368,7 +368,7 @@
             "jiequqian": "class=\"vodlist vodlist_wi author*qq3626/95/000 clearfix",
             "jiequhou": "<div>",
             "jiequshuzuqian": "<a",
-            "jiequshuzuhou": "style=",
+            "jiequshuzuhou": "</a>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-original=\"",
             "tupianhou": "\"",
