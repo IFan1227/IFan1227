@@ -385,7 +385,7 @@
             //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
             "搜索请求方式": "0",
             "ssmoshi": "0",
-            "sousuoqian": "/index.php/vod/search.html?wd=&submit=",
+            "sousuoqian": "/index.php/vod/search.html?wd=",
             "sousuohou": "&limit=150",
             "sousuohouzhui": "/index.php/vod/detail/id/",
             "jspic": "pic",
@@ -1580,7 +1580,7 @@
         },
         {
             "name": "炫猫影视",
-            "url": "https://www.xuanmao520.com/",
+            "url": "https://www.xuanmao520.com",
             "tihuan": "cnzz.com",
             "User": "空",
             "shouye": "1",
@@ -2355,13 +2355,13 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "日本专区$/frim/index25#日本无码$/frim/index30#日本有码$/frim/index31#中文字幕$/frim/index32#欧美精品$/frim/index29#成人动漫$/frim/index34#骚货萝莉$/frim/index36#偷拍自拍$/frim/index39#sm重口$/frim/index42#小视频$/frim/index43#ai换脸$/frim/index45#福利视频$/frim/index47#海外明星$/frim/index48",
+            "fenlei": "日本无码$/frim/index30#日本有码$/frim/index31#中文字幕$/frim/index32#欧美精品$/frim/index29#成人动漫$/frim/index34#骚货萝莉$/frim/index36#偷拍自拍$/frim/index39#sm重口$/frim/index42#小视频$/frim/index43#ai换脸$/frim/index45#福利视频$/frim/index47#海外明星$/frim/index48",
             "houzhui": ".html",
-            "shifouercijiequ": "1",
-            "jiequqian": "class=\"row posts-wrapper scroll\"",
-            "jiequhou": "<div class=\"pagination justify-content-center\"",
-            "jiequshuzuqian": "class=\"entry-media\"",
-            "jiequshuzuhou": "class=\"meta-post-type1\"",
+            "shifouercijiequ": "0",
+            "jiequqian": "空",
+            "jiequhou": "空",
+            "jiequshuzuqian": "空",
+            "jiequshuzuhou": "空",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-src=\"",
             "tupianhou": "\"",
