@@ -554,8 +554,8 @@
             "fenlei": "日本动画电影$/type/ribendonghuadianying#电影$/type/dianying#日本动漫$/type/ribendongman#国产动漫$/type/guochandongman",
             "houzhui": ".html",
             "shifouercijiequ": "1",
-            "jiequqian": "class=\"col-6 col-sm-4 col-lg-3\"",
-            "jiequhou": "</svg>",
+            "jiequqian": "class=\"row gutter-20\"",
+            "jiequhou": "</section>",
             "jiequshuzuqian": "<img class=\"",
             "jiequshuzuhou": "</h6>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
