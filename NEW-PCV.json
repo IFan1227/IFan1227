@@ -2476,7 +2476,7 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "国产传媒$/vodshow/52--------#网红福利$/vodshow/53--------#口交现场$/vodshow/88--------#丝袜诱惑$/vodshow/89--------#颜射瞬间$/vodshow/97--------#女神学生$/vodshow/98--------#日本女优$/vodshow/51--------#日韩视频$/vodshow/81--------#童颜巨乳$/vodshow/48--------#亚洲无码$/vodshow/64--------#妙龄少女$/vodshow/49--------#91大神$/vodshow/61--------#巨乳嫩模$/vodshow/60--------#高清专区$/vodshow/82--------#欧美女神$/vodshow/69--------#欧美精品/vodshow/86--------#色诱动漫$/vodshow/68--------#精选动漫$/vodshow/94--------#动漫卡通$/vodshow/59--------",
+            "fenlei": "国产传媒$/vodshow/52--------#网红福利$/vodshow/53--------#口交现场$/vodshow/88--------#丝袜诱惑$/vodshow/89--------#颜射瞬间$/vodshow/97--------#女神学生$/vodshow/98--------#日本女优$/vodshow/51--------#日韩视频$/vodshow/81--------#童颜巨乳$/vodshow/48--------#亚洲无码$/vodshow/64--------#妙龄少女$/vodshow/49--------#91大神$/vodshow/61--------#巨乳嫩模$/vodshow/60--------#高清专区$/vodshow/82--------#欧美女神$/vodshow/69--------#欧美精品$/vodshow/86--------#色诱动漫$/vodshow/68--------#精选动漫$/vodshow/94--------#动漫卡通$/vodshow/59--------",
             "houzhui": "---.html",
             "shifouercijiequ": "0",
             "jiequqian": "空",
@@ -2543,8 +2543,8 @@
             "bfshifouercijiequ": "0",
             "bfjiequqian": "空",
             "bfjiequhou": "空",
-            "bfjiequshuzuqian": "class=\"active\"",
-            "bfjiequshuzuhou": "</ul>",
+            "bfjiequshuzuqian": "class=\"play-btn\"",
+            "bfjiequshuzuhou": "</div>",
             "bfyshifouercijiequ": "0",
             "bfyjiequqian": "空",
             "bfyjiequhou": "空",
