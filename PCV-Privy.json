@@ -3,8 +3,8 @@
         {
             "key": "自选网页",
             "title": "自选网页",
-            "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/1-FT.png"
-            "custom": "https://raw.iqiq.io/Yvan-W/Film-TV/main/Custom%20Resource/test.json"
+            "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/1-FT.png",
+            "custom": "https://raw.iqiq.io/Yvan-W/Film-TV/main/Custom-Resource/test.json"
         },
         {
             "key": "网页",
@@ -35,11 +35,6 @@
             "key": "推送",
             "title": "远程推送",
             "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/7-Remote.png"
-        },
-        {
-            "key": "待添加",
-            "title": "待添加",
-            "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/8-Developing.png"
         }
     ],
     "zhuyejiekou": [
