@@ -1116,7 +1116,7 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "精品推荐$/vodtype/6#国产情色$/vodtype/7#日本无码$/vodtype/9#亚洲有码$/vodtype/10#欧美情色$/vodtype/12#美乳巨乳$/vodtype/20#萝莉少女$/vodtype/22#成人动画$/vodtype/26#长腿丝袜$/vodtype/31#$#$#$#$#$#$#$#$#$#$",
+            "fenlei": "精品推荐$/vodtype/6#国产情色$/vodtype/7#日本无码$/vodtype/9#亚洲有码$/vodtype/10#欧美情色$/vodtype/12#美乳巨乳$/vodtype/20#萝莉少女$/vodtype/22#成人动画$/vodtype/26#长腿丝袜$/vodtype/31",
             "houzhui": ".html",
             "shifouercijiequ": "0",
             "jiequqian": "空",
