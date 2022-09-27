@@ -1121,8 +1121,8 @@
             "shifouercijiequ": "0",
             "jiequqian": "空",
             "jiequhou": "空",
-            "jiequshuzuqian": "id=\"myvideoDiv\"",
-            "jiequshuzuhou": "</span>",
+            "jiequshuzuqian": "<div class=\"item\" id=\"myvideoDiv\">",
+            "jiequshuzuhou": "</strong>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-original=\"",
             "tupianhou": "\"",
@@ -1189,15 +1189,14 @@
             "bfyjiequqian": "空",
             "bfyjiequhou": "空",
             "bfyjiequshuzuqian": "<button'",
-            "bfyjiequshuzuhou": "</button>",
+            "bfyjiequshuzuhou": "/button>",
             "bfbiaotiqian": ">",
             "bfbiaotihou": "<",
-            "bflianjieqian": "window.open('",
-            "bflianjiehou": "window.open('",
+            "bflianjieqian": "onclick=\"window.open('",
+            "bflianjiehou": "','_blank')",
             "bfqianzhui": "空",
             "bfhouzhui": "空"
         },
-
         {
             "name": "高清无码",
             "url": "https://www.gqwm4.xyz",
