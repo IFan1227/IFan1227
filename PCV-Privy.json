@@ -30,11 +30,11 @@
             "key": "收藏",
             "title": "我的收藏",
             "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/6-Favorite.png"
-        }
+        },
         {
             "key": "自选网页",
             "title": "夜幕降临",
-            "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/6-Favorite.png"
+            "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/7-Remote.png",
             "custom": "https://jsd.eagleyao.com/gh/Yvan-W/Film-TV@main/Custom-Resource/Night-Falls.json"
         }
     ],
