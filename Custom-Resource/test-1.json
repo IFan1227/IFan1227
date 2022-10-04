@@ -104,8 +104,8 @@
             "bfyjiequshuzuhou": "/button>",
             "bfbiaotiqian": ">",
             "bfbiaotihou": "<",
-            "bflianjieqian": "onclick=\"window.open('",
-            "bflianjiehou": "','_blank')",
+            "bflianjieqian": "onclick=\"window.open(\'",
+            "bflianjiehou": "\',\'_blank\')",
             "bfqianzhui": "空",
             "bfhouzhui": "空"
         }
