@@ -19,7 +19,7 @@
             "key": "自选网页",
             "title": "有声小说",
             "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/3-Collection.png",
-            "custom": "https://raw.iqiq.io/Yvan-W/Film-TV/main/Custom-Resource/test.json"
+            "custom": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Custom-Resource/Audio-Novel.json"
         },
         {
             "key": "历史",
@@ -35,13 +35,13 @@
             "key": "自选网页",
             "title": "夜幕降临",
             "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/7-Remote.png",
-            "custom": "https://jsd.eagleyao.com/gh/Yvan-W/Film-TV@main/Custom-Resource/Night-Falls.json"
+            "custom": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Custom-Resource/Night-Falls-1.json"
         },
         {
             "key": "自选网页",
             "title": "夜幕降临",
             "pic": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Media/8-Developing.png",
-            "custom": "https://jsd.eagleyao.com/gh/Yvan-W/Film-TV@main/Custom-Resource/test-1.json"
+            "custom": "https://ghproxy.net/https://raw.githubusercontent.com/Yvan-W/Film-TV/main/Custom-Resource/Night-Falls-2.json"
         }
     ],
     "zhuyejiekou": [
