@@ -26,7 +26,7 @@
             //列表图片是否横图显示，0表示：否，1表示：是
             "横图显示": "1",
             //可以自定义列表翻页起始页的页数
-            "qishiye": "1",
+            "qishiye": "-1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
             "fenlei": "日本視頻$/index.php/vodtype/10#国产传媒$/index.php/vodtype/160#国产视频$/index.php/vodtype/32#欧美视频$/index.php/vodtype/34#韩国视频$/index.php/vodtype/33#成人动画$/index.php/vodtype/42",
             "houzhui": ".html",
