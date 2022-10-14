@@ -20,7 +20,7 @@
             //0：记录，1：不记录
             "是否记录历史": "1",
             //直接播放截取的播放页链接网址，0表示：否，1表示：是
-            "直接播放": "1",
+            "直接播放": "0",
             //分类页是否使用列表方式显示，0表示：否，1表示：是
             "列表显示": "0",
             //列表图片是否横图显示，0表示：否，1表示：是
@@ -102,10 +102,10 @@
             "bfyjiequhou": "空",
             "bfyjiequshuzuqian": "空",
             "bfyjiequshuzuhou": "空",
-            "bfbiaotiqian": ">",
-            "bfbiaotihou": "<",
-            "bflianjieqian": "href=\"",
-            "bflianjiehou": "\"",
+            "bfbiaotiqian": "空",
+            "bfbiaotihou": "空",
+            "bflianjieqian": "空",
+            "bflianjiehou": "空",
             "bfqianzhui": "空",
             "bfhouzhui": "空"
         }
