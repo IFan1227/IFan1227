@@ -1239,8 +1239,8 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "杏吧专区$/video_list/71/1/index#电影$/vodshow/1_#综艺$/vodshow/3_#动漫$/video_list/121/1/index",
-            "houzhui": ".html",
+            "fenlei": "杏吧专区$/video_list/71/#电影$/vodshow/1_#综艺$/vodshow/3_#动漫$/video_list/121/",
+            "houzhui": "/index.html",
             "shifouercijiequ": "0",
             "jiequqian": "空",
             "jiequhou": "空",
