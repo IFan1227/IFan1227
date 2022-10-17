@@ -238,7 +238,7 @@
             //列表图片是否横图显示，0表示：否，1表示：是
             "横图显示": "0",
             //可以自定义列表翻页起始页的页数
-            "qishiye": "_page_1",
+            "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
             "fenlei": "本季新番$/vod_type_id_42_page_#日本动漫$/vod_type_id_1_page_#剧场版$/vod_type_id_3_page_#后宫$/vod_show_class_%E5%90%8E%E5%AE%AB_id_1_page_#冒险$/vod_show_class_%E5%86%92%E9%99%A9_id_1_page_#魔幻$/vod_show_class_%E9%AD%94%E5%B9%BB_id_1_page_",
             "houzhui": ".html",
