@@ -573,7 +573,7 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "动漫$/vod/show/id/1/page/#日本动漫$/vod/show/id/6/page/#国产动漫$/vod/show/id/7/page/#欧美动漫$/vod/show/id/8/page/#电影$/vod/show/id/2/page/#日本动画电影$/vod/show/id/3/page/#国产动画电影$/vod/show/id/4/page/#欧美动画电影$/vod/show/id/5/page/#$",
+            "fenlei": "动漫$/vod/show/id/1/page/#日本动漫$/vod/show/id/6/page/#国产动漫$/vod/show/id/7/page/#欧美动漫$/vod/show/id/8/page/#电影$/vod/show/id/2/page/#日本动画电影$/vod/show/id/3/page/#国产动画电影$/vod/show/id/4/page/#欧美动画电影$/vod/show/id/5/page/",
             "houzhui": ".html",
             "shifouercijiequ": "0",
             "jiequqian": "空",
