@@ -101,7 +101,7 @@
     "zidingyi": [
         {
             "name": "大米星球",
-            "url": "https://dmys1.com",
+            "url": "https://www.dmxq.me",
             //访问请求头
             "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
             //访问请求cookie
@@ -690,7 +690,7 @@
             "jiequqian": "空",
             "jiequhou": "空",
             "jiequshuzuqian": "class=\"myui-vodlist__box\"",
-            "jiequshuzuhou": "</a>",
+            "jiequshuzuhou": "</span>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
             "tupianqian": "data-original=\"",
             "tupianhou": "\"",
@@ -751,8 +751,8 @@
             "bfshifouercijiequ": "0",
             "bfjiequqian": "空",
             "bfjiequhou": "空",
-            "bfjiequshuzuqian": "class=\"col-lg-6 col-md-5 col-sm-4  col-xs-2\"",
-            "bfjiequshuzuhou": "</li>",
+            "bfjiequshuzuqian": "class=\"myui-panel_bd clearfix\"",
+            "bfjiequshuzuhou": "</div>",
             "bfyshifouercijiequ": "0",
             "bfyjiequqian": "空",
             "bfyjiequhou": "空",
