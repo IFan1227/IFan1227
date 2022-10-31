@@ -101,7 +101,7 @@
     "zidingyi": [
         {
             "name": "大米星球",
-            "url": "https://www.dmxq.me",
+            "url": "https://www.dami5.me",
             //访问请求头
             "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
             //访问请求cookie
@@ -137,7 +137,7 @@
             "jiequshuzuqian": "<a",
             "jiequshuzuhou": "</a>",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
-            "tupianqian": "src=\"",
+            "tupianqian": "data-original=\"",
             "tupianhou": "\"",
             "tupianqianzhui": "空",
             "biaotiqian": "title=\"",
@@ -152,7 +152,7 @@
             //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
             "搜索请求方式": "0",
             "ssmoshi": "0",
-            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+            "sousuoqian": "/vodsearch/-------------.html?wd=",
             "sousuohou": "&limit=500",
             "sousuohouzhui": "/voddetail/",
             "jspic": "pic",
@@ -1539,6 +1539,74 @@
             "bfbiaotihou": "<",
             "bflianjieqian": "href=\"",
             "bflianjiehou": "\"",
+            "bfqianzhui": "空",
+            "bfhouzhui": "空"
+        },
+        {
+            "name": "OmoFun动漫",
+            "url": "https://www.omofun.tv",
+            //访问请求头
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
+            //访问请求cookie
+            "cookie": "",
+            //播放请求头
+            "User": "空",
+            //0：不添加，1：添加
+            "添加手动点击图标": "1",
+            //0：不启用，1：启用
+            "启用js加载源码": "0",
+            //根据网站响应速度自行调整加载需要的时间，时间太短可能导致获取数据失败。
+            "js加载源码时间": "3",
+            //填写播放地址寻找的地址标识词，中间用#号分割，不填写的话就使用全局的嗅探词
+            "嗅探词": "m3u8?#.m3u8#mp4#.flv#.mp3#.m4a",
+            //填写播放地址过滤规则，中间用#号分割，不填写的话就使用全局的过滤词
+            "过滤词": "?url=#.css#51.la#cnzz.com#baidu.com",
+            //0：记录，1：不记录
+            "是否记录历史": "0",
+            //直接播放截取的播放页链接网址，0表示：否，1表示：是
+            "直接播放": "0",
+            //分类页是否使用列表方式显示，0表示：否，1表示：是
+            "列表显示": "0",
+            //列表图片是否横图显示，0表示：否，1表示：是
+            "横图显示": "0",
+            //可以自定义列表翻页起始页的页数
+            "qishiye": "1",
+            //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
+            "fenlei": "日漫$/vod/show/id/20/page/#热血$/vod/show/class/热血/id/20/page/#穿越$/vod/show/class/穿越/id/20/page/#奇幻$/vod/show/class/奇幻/id/20/page/#战斗$/vod/show/class/战斗/id/20/page/#搞笑$/vod/show/class/搞笑/id/20/page/#日常$/vod/show/class/日常/id/20/page/#科幻$/vod/show/class/科幻/id/20/page/#萌系$/vod/show/class/萌系/id/20/page/#治愈$/vod/show/class/治愈/id/20/page/#校园$/vod/show/class/校园/id/20/page/#恋爱$/vod/show/class/恋爱/id/20/page/#魔法$/vod/show/class/魔法/id/20/page/#冒险$/vod/show/class/冒险/id/20/page/#机战$/vod/show/class/机战/id/20/page/#催泪$/vod/show/class/催泪/id/20/page/#音乐$/vod/show/class/音乐/id/20/page/",
+            "houzhui": ".html",
+            "shifouercijiequ": "1",
+            "jiequqian": "<div class=\"module-items",
+            "jiequhou": "class=\"fixedGroup",
+            "jiequshuzuqian": "<a",
+            "jiequshuzuhou": "alt=\"",
+            //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
+            "tupianqian": "data-original=\"",
+            "tupianhou": "\"",
+            "tupianqianzhui": "空",
+            "biaotiqian": "title=\"",
+            "ssmoshi": "0",
+            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
+            "sousuohou": "&limit=500",
+            "sousuohouzhui": "/vod/detail/id/",
+            "jspic": "pic",
+            "jsname": "name",
+            "jsid": "id",
+            "zhuangtaiqian": "备注：</span>",
+            "zhuangtaihou": "</div>",
+            "daoyanqian": "导演：</span>",
+            "daoyanhou": "</a>",
+            "zhuyanqian": "主演：</span>",
+            "zhuyanhou": "</a>",
+            "juqingqian": "introduction-content\"><p>",
+            "juqinghou": "</p>",
+            //播放集数截取部分
+            "bfshifouercijiequ": "0",
+            "bfjiequqian": "空",
+            "bfjiequhou": "空",
+            "bfjiequshuzuqian": "class=\"module-play-list-content",
+            "bfjiequshuzuhou": "</div>",
+            "bfyshifouercijiequ": "0",
+            "bfyjiequqian": "空",
             "bfqianzhui": "空",
             "bfhouzhui": "空"
         },
