@@ -152,7 +152,7 @@
             //0：get方式，1：post方式，注意：如果用post方式，【ssmoshi】要填：1
             "搜索请求方式": "0",
             "ssmoshi": "0",
-            "sousuoqian": "/vodsearch/-------------.html?wd=",
+            "sousuoqian": "/index.php/ajax/suggest?mid=1&wd=",
             "sousuohou": "&limit=500",
             "sousuohouzhui": "/voddetail/",
             "jspic": "pic",
@@ -1572,11 +1572,11 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "日漫$/vod/show/id/20/page/#热血$/vod/show/class/热血/id/20/page/#穿越$/vod/show/class/穿越/id/20/page/#奇幻$/vod/show/class/奇幻/id/20/page/#战斗$/vod/show/class/战斗/id/20/page/#搞笑$/vod/show/class/搞笑/id/20/page/#日常$/vod/show/class/日常/id/20/page/#科幻$/vod/show/class/科幻/id/20/page/#萌系$/vod/show/class/萌系/id/20/page/#治愈$/vod/show/class/治愈/id/20/page/#校园$/vod/show/class/校园/id/20/page/#恋爱$/vod/show/class/恋爱/id/20/page/#魔法$/vod/show/class/魔法/id/20/page/#冒险$/vod/show/class/冒险/id/20/page/#机战$/vod/show/class/机战/id/20/page/#催泪$/vod/show/class/催泪/id/20/page/#音乐$/vod/show/class/音乐/id/20/page/",
+            "fenlei": "日本$/index.php/vod/show/area/日本/id/1/page/#全部$/index.php/vod/show/id/1/page/#台湾$/index.php/vod/show/area/台湾/id/1/page/#美国$/index.php/vod/show/area/美国/id/1/page/#法国$/index.php/vod/show/area/法国/id/1/page/#英国$/index.php/vod/show/area/英国/id/1/page/#韩国$/index.php/vod/show/area/韩国/id/1/page/#德国$/index.php/vod/show/area/德国/id/1/page/#泰国$/index.php/vod/show/area/泰国/id/1/page/#印度$/index.php/vod/show/area/印度/id/1/page/#意大利$/index.php/vod/show/area/意大利/id/1/page/#西班牙$/index.php/vod/show/area/西班牙/id/1/page/#加拿大$/index.php/vod/show/area/加拿大/id/1/page/#其他$/index.php/vod/show/area/其他/id/1/page/",
             "houzhui": ".html",
             "shifouercijiequ": "1",
             "jiequqian": "<div class=\"module-items",
-            "jiequhou": "class=\"fixedGroup",
+            "jiequhou": "id=\"page\"",
             "jiequshuzuqian": "<a",
             "jiequshuzuhou": "alt=\"",
             //如果图片前字段填写完整网络图片地址的话，列表页就自动使用这个网络图片作为列表的图片。
