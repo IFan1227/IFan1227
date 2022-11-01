@@ -240,7 +240,7 @@
             //可以自定义列表翻页起始页的页数
             "qishiye": "1",
             //如果分类类型填空，例如：电视剧$空，则直接取url字段网址的源码。
-            "fenlei": "#番剧$/vodshow/4-%E6%97%A5%E6%9C%AC--%E7%95%AA%E5%89%A7-----#国创$/vodshow/4-%E6%97%A5%E6%9C%AC--%E5%9B%BD%E5%88%9B-----#科幻$/vodshow/4-%E6%97%A5%E6%9C%AC--%E7%A7%91%E5%B9%BB-----热血$/vodshow/4-%E6%97%A5%E6%9C%AC--%E7%83%AD%E8%A1%80-----#推理$/vodshow/4-%E6%97%A5%E6%9C%AC--%E6%8E%A8%E7%90%86-----#搞笑$/vodshow/4-%E6%97%A5%E6%9C%AC--%E6%90%9E%E7%AC%91-----#冒险$/vodshow/4-%E6%97%A5%E6%9C%AC--%E5%86%92%E9%99%A9-----#校园$/vodshow/4-%E6%97%A5%E6%9C%AC--%E6%A0%A1%E5%9B%AD-----#少女$/vodshow/4-%E6%97%A5%E6%9C%AC--%E5%B0%91%E5%A5%B3-----#日本$/vodshow/4-%E6%97%A5%E6%9C%AC-------#大陆$/vodshow/4-%E5%A4%A7%E9%99%86-------# 动漫片库$/vodshow/4--------",
+            "fenlei": "番剧$/vodshow/4-%E6%97%A5%E6%9C%AC--%E7%95%AA%E5%89%A7-----#国创$/vodshow/4-%E6%97%A5%E6%9C%AC--%E5%9B%BD%E5%88%9B-----#科幻$/vodshow/4-%E6%97%A5%E6%9C%AC--%E7%A7%91%E5%B9%BB-----热血$/vodshow/4-%E6%97%A5%E6%9C%AC--%E7%83%AD%E8%A1%80-----#推理$/vodshow/4-%E6%97%A5%E6%9C%AC--%E6%8E%A8%E7%90%86-----#搞笑$/vodshow/4-%E6%97%A5%E6%9C%AC--%E6%90%9E%E7%AC%91-----#冒险$/vodshow/4-%E6%97%A5%E6%9C%AC--%E5%86%92%E9%99%A9-----#校园$/vodshow/4-%E6%97%A5%E6%9C%AC--%E6%A0%A1%E5%9B%AD-----#少女$/vodshow/4-%E6%97%A5%E6%9C%AC--%E5%B0%91%E5%A5%B3-----#日本$/vodshow/4-%E6%97%A5%E6%9C%AC-------#大陆$/vodshow/4-%E5%A4%A7%E9%99%86-------# 动漫片库$/vodshow/4--------",
             "houzhui": "---.html",
             "shifouercijiequ": "0",
             "jiequqian": "空",
