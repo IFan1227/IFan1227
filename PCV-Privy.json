@@ -1370,7 +1370,7 @@
             "列表起始页": "1",
             "列表分类": "国产视频$/index.php/vodtype/1-#国产传媒$/index.php/vodtype/160-#日本视频$/index.php/vodtype/2-#中文字幕$/index.php/vodtype/9-#欧美视频$/index.php/vodtype/5-",
             "列表后缀": ".html",
-            "列表二次截取": "class=\"bottomads\"$$class=\"clear\"",
+            "列表二次截取": "class=\"group-contents layui-row\"$$class=\"clear\"",
             "列表截取数组": "<a$$</a>",
             "列表图片前缀": "空",
             "列表图片": "data-src=\"$$\"",
@@ -1416,7 +1416,7 @@
         },
         {
             "网站名字": "妖次元里番",
-            "网站地址": "https://www.ycylf.cc",
+            "网站地址": "https://www.ycylf.buzz",
             "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
             "访问请求cookie": "空",
             "访问请求referer": "空",
