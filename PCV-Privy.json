@@ -45,7 +45,58 @@
         }
     ],
     "zhuyejiekou": [
-        {}
+        {
+            "name": "月儿影视",
+            "url": "https://yue52.xyz/api.php/v1.vod"
+        },
+        {
+            "name": "月儿影视(萝卜)",
+            "url": "https://yue52.xyz/api.php/v1.vod"
+        },
+        {
+            "name": "小鸟动漫(萝卜)",
+            "url": "http://xydm.baicai.buzz/mogai_api.php/v1.vod"
+        },
+        {
+            "name": "熊猫动漫(萝卜)",
+            "url": "http://dongman.k8aa.com/mogai_api.php/v1.vod"
+        },
+        {
+            "name": "我爱跟剧(萝卜)",
+            "url": "https://www.genmov.com/mogai_api.php/v1.vod"
+        },
+        {
+            "name": "兔子窝(萝卜)",
+            "url": "http://cj.huimaojia.com:12345/mogai_api.php/v1.vod"
+        },
+        {
+            "name": "天天视频(萝卜)",
+            "url": "http://app.qianju.cc/api.php/v1.vod"
+        },
+        {
+            "name": "淘剧社(萝卜)",
+            "url": "https://app.shuhai99.com/api.php/v1.vod"
+        },
+        {
+            "name": "看剧吧(萝卜)",
+            "url": "http://app.ishen520.com/api.php/v1.vod"
+        },
+        {
+            "name": "寒枫视频(萝卜)",
+            "url": "https://vip.shenyunwl.cn/mogai_api.php/v1.vod"
+        },
+        {
+            "name": "阿里影视(萝卜)",
+            "url": "http://aliys.cn:90/api.php/v1.vod"
+        },
+        {
+            "name": "爱电影(萝卜)",
+            "url": "https://www.idianying.com.cn/mogai_api.php/v1.vod"
+        },
+        {
+            "name": "🐌段友影视2",
+            "url": "https://shangjihuoke.com/api.php/tv.vod"
+        }
     ],
     "caijizhan": [
         {
@@ -90,7 +141,14 @@
         }
     ],
     "zhujiexi": [
-        {}
+        {
+            "name": "Pro2",
+            "url": "https://vip.rongxingvr.top/api/?type=ys&key=JJEZkZIhzkA4cUtBfR&url="
+        },
+        {
+            "name": "江湖解析",
+            "url": "http://103.40.240.46/jh/?url="
+        }
     ],
     "beiyongjiexi": [
         {}
@@ -391,7 +449,6 @@
             //0：不跳转，1：跳转
             "播放页跳转看图": "0"
         },
-
         {
             "网站名字": "zzzfun动漫视频网",
             "网站地址": "http://www.zzzfun.com",
@@ -1559,7 +1616,7 @@
             "播放剧集链接后缀": "空",
             //0：不跳转，1：跳转
             "播放页跳转看图": "0"
-        },       
+        },
         {
             "name": "直播",
             "url": "https://www.zhibo8.net",
