@@ -30,18 +30,6 @@
             "key": "收藏",
             "title": "我的收藏",
             "pic": "https://jsd.cdn.zzko.cn/gh/Yvan-W/Film-TV@main/Media/6-Favorite.png"
-        },
-        {
-            "key": "自选网页",
-            "title": "夜幕降临",
-            "pic": "https://jsd.cdn.zzko.cn/gh/Yvan-W/Film-TV@main/Media/7-Remote.png",
-            "custom": "https://jsd.cdn.zzko.cn/gh/Yvan-W/Film-TV@main/Custom-Resource/Night-Falls-1.json"
-        },
-        {
-            "key": "自选网页",
-            "title": "夜幕降临",
-            "pic": "https://jsd.cdn.zzko.cn/gh/Yvan-W/Film-TV@main/Media/8-Developing.png",
-            "custom": "https://jsd.cdn.zzko.cn/gh/Yvan-W/Film-TV@main/Custom-Resource/Night-Falls-2.json"
         }
     ],
     "zhuyejiekou": [
