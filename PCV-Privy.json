@@ -803,16 +803,20 @@
             "播放页跳转看图": "0"
         },      
         {
-            "网站名字": "霹雳影视",
-            "网站地址": "https://plyingshi.com",
+            "网站名字": "Freeok",
+            "网站地址": "https://www.freeok.vip",
             "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
             "访问请求cookie": "空",
             "访问请求referer": "空",
             "播放请求头": "User-Agent$123",
             "图片请求头": "空",
             "网页编码": "utf-8",
+            //0：否，1：是
+            "集数倒序": "0",
             //0：不禁用，1：禁用
             "禁用搜索": "0",
+            //0：不启用，1：启用
+            "搜索手动验证": "0",
             //0：不启用，1：启用
             "是否启用解析模式": "0",
             //需要点击播放的网站可以自己找网页的点击js字符
@@ -821,7 +825,7 @@
             "启用js加载源码": "0",
             "js加载源码时间": "5",
             "嗅探词": "m3u8?#.m3u8#.mp4#.flv#.mp3#.m4a",
-            "过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
+            "过滤词": "?url=#51.la#cnzz.com#baidu.com#bilibili.com",
             //0：记录，1：不记录
             "是否记录历史": "0",
             //0：否，1：是
@@ -829,14 +833,14 @@
             "列表显示": "0",
             "横图显示": "0",
             "列表起始页": "1",
-            "列表分类": "动漫片库$/vodshow/4--------#日本$/vodshow/4-%E6%97%A5%E6%9C%AC-------#番剧$/vodshow/4---%E7%95%AA%E5%89%A7-----#国创$/vodshow/4---%E5%9B%BD%E5%88%9B-----#科幻$/vodshow/4---%E7%A7%91%E5%B9%BB-----#热血$/vodshow/4---%E7%83%AD%E8%A1%80-----#推理$/vodshow/4---%E6%8E%A8%E7%90%86-----#搞笑$/vodshow/4---%E6%90%9E%E7%AC%91-----#冒险$/vodshow/4---%E6%90%9E%E7%AC%91-----#校园$/vodshow/4---%E6%A0%A1%E5%9B%AD-----#动作$/vodshow/4---%E5%8A%A8%E4%BD%9C-----#机战$/vodshow/4---%E6%9C%BA%E6%88%98-----#运动$/vodshow/4---%E8%BF%90%E5%8A%A8-----#战争$/vodshow/4---%E6%88%98%E4%BA%89-----#少女$/vodshow/4---%E5%B0%91%E5%A5%B3-----#情感$/vodshow/4---%E6%83%85%E6%84%9F-----#电影片库$/vodshow/1--------#喜剧$/vodshow/1---%E5%96%9C%E5%89%A7-----#恐怖$/vodshow/1---%E6%81%90%E6%80%96-----#动作$/vodshow/1---%E5%8A%A8%E4%BD%9C-----#科幻$/vodshow/1---%E7%A7%91%E5%B9%BB-----#动画$/vodshow/1---%E5%8A%A8%E7%94%BB-----# 电视剧片库$/vodshow/2--------# 综艺片库$/vodshow/3--------# 纪录片片库$/vodshow/41--------",
+            "列表分类": "日本动漫$/vodshow/3-日本-------#动漫$/vodshow/3--------#电影$/vodshow/1--------/#电视剧$/vodshow/2--------",
             "列表后缀": "---.html",
-            "列表二次截取": "空",
-            "列表截取数组": "class=\"module-item-pic\"$$</span>",
+            "列表二次截取": "class=\"module-items module-poster-items-base\"$$id=\"page\"",
+            "列表截取数组": "<a$$</a>",
             "列表图片前缀": "空",
-            "列表图片": "data-src=\"$$\"",
+            "列表图片": "data-original=\"$$\"",
             "列表标题": "title=\"$$\"",
-            "列表副标题": "class=\"module-item-text\">$$</div>",
+            "列表副标题": "class=\"module-item-note\">$$</div>",
             "列表链接": "href=\"$$\"",
             "列表链接前缀": "空",
             "列表链接后缀": "空",
@@ -847,7 +851,7 @@
             "搜索后": "&limit=150",
             "搜索连接后缀": "/voddetail/",
             "搜索二次截取": "空",
-            "搜索截取数组": "class=\"module-item-pic\"$$</div>",
+            "搜索截取数组": "前$$后",
             "搜索图片前缀": "空",
             "搜索图片": "original=\"$$\"",
             "搜索标题": "title=\"$$\"",
@@ -857,24 +861,32 @@
             "搜索链接后缀": "空",
             //0：不启用，1：启用
             "启用线路名": "1",
-            "线路名二次截取": "class=\"module-tab-content\"$$class=\"shortcuts-mobile-overlay\"",
-            "线路名截取数组": "class=\"module-tab-item$$</div>",
-            "线路名标题": "data-dropdown-value=\"$$\">",
-            "播放页状态": "连载：</span>$$</div>",
-            "播放页导演": "导演：</span>$$/</span>						</div>",
-            "播放页演员": "主演：</span>$$/</span>						</div>",
-            "播放页剧情": "<span class=\"data\"$$class=\"morecontent\"",
+            "线路名二次截取": "空",
+            "线路名截取数组": "class=\"module-tab-item tab-item$$</div>",
+            "线路名标题": "<span>$$</small>",
+            "播放页状态": "class=\"module-info-item-content\">$$</div>",
+            "播放页导演": "导演：$$</span>",
+            "播放页演员": "主演：$$</div>",
+            "播放页剧情": "class=\"module-info-introduction-content\">$$</p>",
             "播放页二次截取": "空",
-            "播放页截取数组": "class=\"scroll-content\"$$</div>",
+            "播放页截取数组": "class=\"module-play-list\"$$</div>",
             "播放剧集二次截取": "空",
             "播放剧集截取数组": "<a$$/a>",
-            "播放剧集标题": "span>$$</span",
+            "播放剧集标题": "<span>$$</span>",
             "播放剧集链接": "href=\"$$\"",
             "播放剧集链接前缀": "空",
             "播放剧集链接后缀": "空",
+            //0：否，1：是
+            "启用嗅探截取": "0",
+            "嗅探请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1", //User-Agent$123#Referer$123
+            "播放地址二次截取": "var player_$$</div>",
+            "播放地址截取": "\"url\":\"$$\"",
+            "是否base64解码": "0",
+            "是否url解码": "0",
+            "官源是否走解析": "0",
             //0：不跳转，1：跳转
             "播放页跳转看图": "0"
-        },
+        },        
         {
             "网站名字": "异世界动漫",
             "网站地址": "https://www.ysjdm.net",
