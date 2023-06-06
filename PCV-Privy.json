@@ -41,18 +41,6 @@
             "url": "https://m3u8.apiyhzy.com/api.php"
         },
         {
-            "name": "嘛哩嘛哩",
-            "url": "https://malimali3.com/api.php"
-        },
-        {
-            "name": "一拳动漫",
-            "url": "http://47.97.68.224/api.php"
-        },
-        {
-            "name": "北斗星资源",
-            "url": "https://api.bdxapi.com/api.php"
-        },
-        {
             "name": "天空资源",
             "url": "https://api.tiankongapi.com/api.php"
         },
@@ -61,16 +49,8 @@
             "url": "http://47.113.126.237:1234/api.php"
         },
         {
-            "name": "wabc(腾讯直采)",
-            "url": "https://wabc.ml/mao/1.php"
-        },
-        {
             "name": "七七采集",
             "url": "http://api.kunyu77.com/api.php"
-        },
-        {
-            "name": "奇趣影院",
-            "url": "http://www.qiqu.me/api.php"
         },
         {
             "name": "CK",
@@ -158,7 +138,7 @@
                 }
             ],
             "列表二次截取": "class=\"module-items$$class=\"is_pc\"",
-            "列表截取数组": "<a$$</a>",
+            "列表截取数组": "<a$$class=\"module-poster-item-info\"",
             "列表图片前缀": "空",
             "列表图片": "data-original=\"$$\"",
             "列表标题": "title=\"$$\"",
@@ -1522,7 +1502,7 @@
             "嗅探词": "m3u8?#.m3u8#.mp4#.flv#.mp3#.m4a",
             "过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
             //0：记录，1：不记录
-            "是否记录历史": "0",
+            "是否记录历史": "1",
             //0：否，1：是
             "直接播放": "0",
             "列表显示": "0",
