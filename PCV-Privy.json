@@ -266,7 +266,7 @@
             "搜索模式": "0",
             "搜索前": "/index.php/ajax/suggest?mid=1&wd=",
             "搜索后": "&limit=150",
-            "搜索连接后缀": "/vod/",
+            "搜索连接后缀": "/dongman/",
             "搜索二次截取": "空",
             "搜索截取数组": "前$$后",
             "搜索图片前缀": "空",
@@ -1841,7 +1841,7 @@
             "播放页跳转看图": "0"
         },
         {
-            "网站名字": "YOUPURN",
+            "网站名字": "YOUPURN（18+）",
             "网站地址": "https://ab77768.com:29875",
             "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
             "访问请求cookie": "空",
@@ -1879,8 +1879,8 @@
             "筛选列表": [
                 {
                     "分类名称": "吃瓜",
-                    "分类链接": "https://ab77768.com:29875/category/?category_id=37730&类型&page=翻页&limit=30",
-                    "类型": "全部$category_child_id=#重磅泄密$category_child_id=37731#网红明星$category_child_id=37732#偷拍自拍$category_child_id=37733#医学检查$category_child_id=37734#热门校园$category_child_id=37735#家庭乱伦$category_child_id=37736"
+                    "分类链接": "https://ab77768.com:29875/category/?category_id=59072&类型&page=翻页&limit=30",
+                    "类型": "全部$category_child_id=#重磅泄密$category_child_id=59073#网红明星$category_child_id=59074#偷拍自拍$category_child_id=59075#医学检查$category_child_id=59076#热门校园$category_child_id=59077#家庭乱伦$category_child_id=59078"
                 },
                 {
                     "分类名称": "动漫",
@@ -1888,17 +1888,17 @@
                 },
                 {
                     "分类名称": "日韩",
-                    "分类链接": "https://ab77768.com:29875/category/?category_id=37748&类型&page=翻页&limit=30",
+                    "分类链接": "https://ab77768.com:29875/category/?category_id=59058&类型&page=翻页&limit=30",
                     "类型": "全部$category_child_id=#无码$category_child_id=37749#有码$category_child_id=37750"
                 },
                 {
                     "分类名称": "国产",
-                    "分类链接": "https://ab77768.com:29875/category/?category_id=37737&类型&page=翻页&limit=30",
-                    "类型": "全部$category_child_id=#国产$category_child_id=37738#麻豆$category_child_id=37739#SWAG$category_child_id=37740#扣扣$category_child_id=37741#91茄子$category_child_id=37742#糖心Vlog$category_child_id=37743#萝莉社$category_child_id=37744#JVID$category_child_id=37745#自拍$category_child_id=37746#选妃$category_child_id=37747"
+                    "分类链接": "https://ab77768.com:29875/category/?category_id=59047&类型&page=翻页&limit=30",
+                    "类型": "全部$category_child_id=#国产$category_child_id=59048#麻豆$category_child_id=590479#SWAG$category_child_id=59050#扣扣$category_child_id=59051#91茄子$category_child_id=59052#糖心Vlog$category_child_id=59053#萝莉社$category_child_id=59054#JVID$category_child_id=59055#自拍$category_child_id=5904756#选妃$category_child_id=59057"
                 },
                 {
                     "分类名称": "欧美",
-                    "分类链接": "https://ab77768.com:29875/category/?category_id=37751&category_child_id=&page=翻页&limit=30"
+                    "分类链接": "https://ab77768.com:29875/category/?category_id=59061&category_child_id=&page=翻页&limit=30"
                 },
                 {
                     "分类名称": "标签",
@@ -1907,21 +1907,21 @@
                 },
                 {
                     "分类名称": "AI换脸",
-                    "分类链接": "https://ab77768.com:29875/category/?category_id=37753&category_child_id=&page=翻页&limit=30"
+                    "分类链接": "https://ab77768.com:29875/category/?category_id=59063&category_child_id=&page=翻页&limit=30"
                 },
                 {
                     "分类名称": "主播",
-                    "分类链接": "https://ab77768.com:29875/category/?category_id=37754&类型&page=翻页&limit=30",
+                    "分类链接": "https://ab77768.com:29875/category/?category_id=59064&类型&page=翻页&limit=30",
                     "类型": "全部$category_child_id=#韩国主播$category_child_id=37755#偷拍自拍$category_child_id=37756"
                 },
                 {
                     "分类名称": "AV解说",
-                    "分类链接": "https://ab77768.com:29875/category/?category_id=37757&类型&page=翻页&limit=30",
+                    "分类链接": "https://ab77768.com:29875/category/?category_id=59067&类型&page=翻页&limit=30",
                     "类型": "全部$category_child_id="
                 },
                 {
                     "分类名称": "重口",
-                    "分类链接": "https://ab77768.com:29875/category/?category_id=37758&类型&page=翻页&limit=30",
+                    "分类链接": "https://ab77768.com:29875/category/?category_id=59068&类型&page=翻页&limit=30",
                     "类型": "全部$category_child_id="
                 }
             ],
