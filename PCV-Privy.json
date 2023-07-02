@@ -58,10 +58,32 @@
         }
     ],
     "zhujiexi": [
-        {}
+        {
+            "name": "主解1",
+            "url": "https://api.tyun77.cn/api.php/provide/parserUrl?url="
+        }
     ],
     "beiyongjiexi": [
-        {}
+        {
+            "name": "备解1",
+            "url": "https://jx.jsonplayer.com/player/?url="
+        },
+        {
+            "name": "备解2",
+            "url": "https://jx.xmflv.com/?url="
+        },
+        {
+            "name": "备解3",
+            "url": "https://jx.iztyy.com/svip/?url="
+        },
+        {
+            "name": "备解4",
+            "url": "https://okjx.cc/?url="
+        },
+        {
+            "name": "备解5",
+            "url": "https://www.pangujiexi.com/pangu/?url="
+        }
     ],
     "dianshizhibo": "https://raw.iqiq.io/Yvan-W/Film-TV/main/Live.json",
     "嗅探词": "m3u8?#ixigua#.czspp#.m3u8#.mp4#.flv#.mp3#.m4a#.mkv",
@@ -1041,16 +1063,20 @@
             "播放页跳转看图": "0"
         },
         {
-            "网站名字": "打驴动漫(只能搜索)",
-            "网站地址": "https://www.dqsj.top",
+            "网站名字": "宫下动漫",
+            "网站地址": "https://arlnigdm.com",
             "访问请求ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36",
             "访问请求cookie": "空",
             "访问请求referer": "空",
             "播放请求头": "User-Agent$123",
             "图片请求头": "空",
             "网页编码": "utf-8",
+            //0：否，1：是
+            "集数倒序": "0",
             //0：不禁用，1：禁用
             "禁用搜索": "0",
+            //0：不启用，1：启用
+            "搜索手动验证": "0",
             //0：不启用，1：启用
             "是否启用解析模式": "0",
             //需要点击播放的网站可以自己找网页的点击js字符
@@ -1058,7 +1084,7 @@
             //0：不启用，1：启用
             "启用js加载源码": "0",
             "js加载源码时间": "5",
-            "嗅探词": "m3u8?#.m3u8#.mp4#.flv#.mp3#.m4a#mp4",
+            "嗅探词": "arlnigdm.com#.mp4#.flv#.mp3#.m4a",
             "过滤词": "51.la#cnzz.com#baidu.com#bilibili.com",
             //0：记录，1：不记录
             "是否记录历史": "0",
@@ -1067,14 +1093,37 @@
             "列表显示": "0",
             "横图显示": "0",
             "列表起始页": "1",
-            "列表分类": "热门新番$/index.php/vod/show/id/23/page/#日本动漫$/index.php/vod/show/id/21/page/#国产动漫$/index.php/vod/show/id/22/page/#欧美动漫$/index.php/vod/show/id/25/page/#动漫电影$/index.php/vod/show/id/24/page/#后宫$/index.php/vod/show/by/hits/class/%E5%90%8E%E5%AE%AB/id/20/page/#治愈$/index.php/vod/show/by/hits/class/%E6%B2%BB%E6%84%88/id/20/page/#萝莉$/index.php/vod/show/by/hits/class/%E8%90%9D%E8%8E%89/id/20/page/#肉番$/index.php/vod/show/by/hits/class/%E8%82%89%E7%95%AA/id/20/page/#剧集$/index.php/vod/show/id/27/page/#电影$/index.php/vod/show/id/28/page/#综艺$/index.php/vod/show/id/31/page/",
-            "列表后缀": ".html",
+            "列表分类": "TV动画$/vodshow/1--------#剧场版$/vodshow/21--------",
+            "列表后缀": "---.html",
+            //提示：类型剧情地区年代排序可以自由选择是否显示，注意和分类链接要联动，不显示的分类链接就去掉那个分类的动态词
+            //0:否，1：是
+            "筛选列表模式": "0",
+            "筛选列表": [
+                {
+                    "分类名称": "TV动画",
+                    "分类链接": "https://xx.com/vodshow/类型-地区-排序-剧情-----翻页---年代.html",
+                    "类型": "全部$2#国产剧$13#日韩剧$15",
+                    "剧情": "全部$空#古装$古装#历史$历史",
+                    "地区": "全部$空#内地$内地#韩国$韩国",
+                    "年代": "全部$空#2021$2021#2020$2020",
+                    "排序": "按时间排序$time#按人气排序$hits#按评分排序$score"
+                },
+                {
+                    "分类名称": "剧场版",
+                    "分类链接": "https://xx.com/vodshow/类型--------翻页---.html",
+                    "类型": "全部$1#动作片$6#喜剧片$7",
+                    "剧情": "空",
+                    "地区": "空",
+                    "年代": "空",
+                    "排序": "空"
+                }
+            ],
             "列表二次截取": "空",
-            "列表截取数组": "<div class=\"public-list-div public-list-bj\">$$class=\"public-play\"",
+            "列表截取数组": "class=\"lazy gen-movie-img mask-1\"$$class=\"public-list-subtitle cor5 hide ft2\"",
             "列表图片前缀": "空",
-            "列表图片": "data-src=\"$$\"",
-            "列表标题": "alt=\"$$\"",
-            "列表副标题": "class=\"public-prt cr8\">$$class=\"public-bg\"",
+            "列表图片": "data-original=\"$$\"",
+            "列表标题": ">$$</a>",
+            "列表副标题": "class=\"pic-text text-right\">$$</span>",
             "列表链接": "href=\"$$\"",
             "列表链接前缀": "空",
             "列表链接后缀": "空",
@@ -1082,8 +1131,8 @@
             "搜索请求方式": "0",
             "搜索模式": "0",
             "搜索前": "/index.php/ajax/suggest?mid=1&wd=",
-            "搜索后": "&limit=500",
-            "搜索连接后缀": "/index.php/vod/detail/id/",
+            "搜索后": "&limit=150",
+            "搜索连接后缀": "/bangumi/",
             "搜索二次截取": "空",
             "搜索截取数组": "前$$后",
             "搜索图片前缀": "空",
@@ -1097,19 +1146,28 @@
             "启用线路名": "1",
             "线路名二次截取": "空",
             "线路名截取数组": "<a class=\"swiper-slide\">$$</a>",
-            "线路名标题": "</i>&nbsp;$$</span>",
-            "播放页状态": "class=\"slide-info hide\">$$</span>",
-            "播放页导演": "导演：</em>$$</li>",
-            "播放页演员": "演员 :</strong>$$</div>",
+            "线路名标题": "</i>&nbsp;$$<span class=\"badge\">",
+            "播放页状态": "<div class=\"slide-info hide\">$$</div>",
+            "播放页导演": "导演 :</strong>$$<strong class=\"cor6 r6\">",
+            "播放页演员": "演员 :</strong>$$<strong class=\"cor6 r6\">",
             "播放页剧情": "class=\"check text selected cor3\">$$</div>",
             "播放页二次截取": "空",
             "播放页截取数组": "<ul class=\"anthology-list-play size\">$$</ul>",
+            "播放剧集自动分割模式": "0",
             "播放剧集二次截取": "空",
-            "播放剧集截取数组": "<a$$</li>",
-            "播放剧集标题": ">$$</a",
+            "播放剧集截取数组": "<a$$/a>",
+            "播放剧集标题": ">$$<",
             "播放剧集链接": "href=\"$$\"",
             "播放剧集链接前缀": "空",
             "播放剧集链接后缀": "空",
+            //0：否，1：是
+            "启用嗅探截取": "0",
+            "嗅探请求头": "User-Agent$Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1", //User-Agent$123#Referer$123
+            "播放地址二次截取": "var player_$$</div>",
+            "播放地址截取": "\"url\":\"$$\"",
+            "是否base64解码": "0",
+            "是否url解码": "0",
+            "官源是否走解析": "1",
             //0：不跳转，1：跳转
             "播放页跳转看图": "0"
         },
